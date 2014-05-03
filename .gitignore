@@ -1,0 +1,8 @@
+document.pdf
+tmp/
+.project
+.texlipse
+document.synctex.gz
+.gitignore~
+gettingstarted
+
