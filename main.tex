@@ -1,0 +1,199 @@
+%_______________________________________________________________________________
+%class
+%_______________________________________________________________________________
+%\documentclass[a4paper,11pt,onecolumn,final,german,openbib]{scrbook}
+\documentclass[a4paper,11pt,oneside,final,german,openbib,pdftex]{scrbook}
+%_______________________________________________________________________________
+% page borders
+%_______________________________________________________________________________
+\addtolength{\headheight}{2cm}
+%\addtolength{\topmargin}{2cm}
+\setlength{\oddsidemargin}{1.0cm}
+\setlength{\evensidemargin}{0.5cm}
+\setlength{\textwidth}{14.3cm}
+\setlength{\parindent}{0mm}
+ 
+%_______________________________________________________________________________
+% packages
+%_______________________________________________________________________________
+\usepackage{german}
+\usepackage{amsmath, amssymb}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{dsfont}
+\usepackage{slashed}
+\usepackage{textcomp}
+%\usepackage{url}
+
+%_______________________________________________________________________________
+% bold fonts for headings
+%_______________________________________________________________________________
+\font\afont=cmssbx10 scaled \magstep5     % for the title
+\font\bfont=cmssbx10 scaled \magstep4     % for chapter headings
+\font\cfont=cmssbx10 scaled \magstep3
+\font\dfont=cmssbx10 scaled \magstep2     % for section headings and author name
+\font\efont=cmssbx10 scaled \magstephalf
+
+%_______________________________________________________________________________
+% index depth
+%_______________________________________________________________________________
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+%_______________________________________________________________________________
+% new commands
+%_______________________________________________________________________________
+\newcommand{\demi}{\frac{1}{2}}
+
+%_______________________________________________________________________________
+% renewed commands
+%_______________________________________________________________________________
+% \renewcommand{\topfraction}{1.}       % this is important for figure placement
+% \renewcommand{\bottomfraction}{1.}
+\makeatletter
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+  {-3.25ex\@plus -1ex \@minus -.2ex}%
+  {1.5ex \@plus .2ex}%
+  {\normalfont\normalsize\bfseries}
+}
+\makeatother
+
+%_______________________________________________________________________________
+% special words, hyphenation
+%_______________________________________________________________________________
+\hyphenation{Ba-che-lor-ar-beit}
+
+\pagestyle{empty}
+\pagestyle{headings}
+%for changing the style on a specific page use \thispagestyle{e.g., empty}
+
+%_______________________________________________________________________________
+%_______________________________________________________________________________
+\begin{document}
+\pagenumbering{roman}
+
+%_______________________________________________________________________________
+\begin{titlepage}
+  \vspace*{6mm}
+  \begin{center}
+     {\afont Rastertunnelmikroskopie an adsorbierenden Schichten}
+     \\[3.5cm]
+     {\large von}
+     \\[3.5cm]
+     {\dfont Verena Grimm}
+     \\[2cm]
+     {\large Bachelorarbeit in Physik \/\\
+        vorgelegt dem Fachbereich Physik, Mathematik und Informatik (FB 08) \/\\
+        der Johannes Gutenberg-Universit\"at Mainz \/\\
+        am 66. Juni 2014}
+   \end{center}
+   \vfill
+   1. Gutachter: Prof. Dr. Hans-Joachim Elmers\\	
+   2. Gutachter: Prof. Dr. Un Bekannt \\
+   \vfill
+\end{titlepage}
+
+\thispagestyle{empty}
+Ich versichere, dass ich die Arbeit selbstst\"andig verfasst und keine 
+anderen als die angegebenen Quellen und Hilfsmittel benutzt sowie 
+Zitate kenntlich gemacht habe.
+\\
+\\[3.5cm] 
+Mainz, den [Datum] [Unterschrift]
+\vfill
+\noindent 
+Verena Grimm\\
+KOMET\\
+Institut f\"ur Physik\\
+Staudingerweg 7\\
+Johannes Gutenberg-Universit\"at
+D-55128 Mainz\\
+{\tt vegrimm@students.uni-mainz.de}
+
+%_______________________________________________________________________________
+\renewcommand\contentsname{Inhaltsverzeichnis}
+\renewcommand\figurename{Abbildung}
+\renewcommand\tablename{Tabelle}
+\tableofcontents
+\clearpage
+
+\mainmatter
+\sloppy
+
+%_______________________________________________________________________________
+\chapter{Einleitung}
+
+
+
+
+
+%_______________________________________________________________________________
+\chapter{Hauptteil}
+
+
+
+
+%_______________________________________________________________________________
+\section{Grundlagen}
+
+
+\subsection{Rastertunnelmikroskopie/-spektroskopie}
+\subsection{LEED-Untersuchung}
+\subsection{noch was?}
+
+\section{Versuchsaufbau}
+
+
+\section{Aufbringen dünner Au-Schichten auf einem Re-Kristall}
+
+
+\section{Bau eines Dinges}
+
+
+\section{Test des Dinges: Aufbringen von Molekül auf Substrat}
+
+
+
+
+\section{Ergebnisse}
+
+
+
+%_______________________________________________________________________________
+\chapter{Zusammenfassung und Ausblick}
+
+
+
+%_______________________________________________________________________________
+\begin{appendix}
+\chapter{Anhang}
+
+\section{Tabellen und Abbildungen}
+
+
+
+%_______________________________________________________________________________
+\section{Weiterf\"uhrende Details zur Arbeit}
+
+
+
+%_______________________________________________________________________________
+\chapter{Literaturverzeichnis}
+
+
+
+
+%_______________________________________________________________________________
+\chapter{Danksagung}
+
+... an wen auch immer. Denken Sie an Ihre Freundinnen und Freunde, 
+Familie, Lehrer, Berater und Kollegen.
+
+\end{appendix}
+
+\end{document}  
+        
+        
