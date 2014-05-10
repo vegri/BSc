@@ -1,11 +1,11 @@
 Eine einfache und verbreitete Methode, um etwas über Oberflächenstrukturen von
  Kristallen herauszufinden, ist eine Untersuchung mit LEED (Low Energy Electron
  Diffraction).
- Dabei wird ein Elektronenstrahl mit Energien von 20-300eV senkrecht auf die
+ Dabei wird ein Elektronenstrahl mit Energien von 20-400eV senkrecht auf die
  Oberfläche gerichtet, aus dem resultierende Beugungsmuster der elastisch
  gestreuten Elektronen können Rückschlüsse auf die Periodizität des Gitters
  gezogen werden.\\
- Abbildung bla zeigt den prinzipiellen Versuchsaufbau. Die Elektronenkanone
+ Abbildung \ref{leedaufbau} zeigt den prinzipiellen Versuchsaufbau. Die Elektronenkanone
  besteht aus einem Thorium-beschichteten Iridium-Filament, das beim
  Aufheizen Elektronen emittiert. Mit Hilfe eines Wehneltzylinders kann die
  Intensität und die Fokussierung des Elektronenstrahls reguliert werden. Vor dem
@@ -26,8 +26,39 @@ Streuung nur an der obersten Atomschicht. Im Falle der elastischen Streuung ist
 der Betrag des ausfallenden Wellenvektors $\vec{k'}$ gleich dem des
 einfallenden Vektors $\vec{k}$, also $k=k'$. Für konstruktive Interferenz
 muss die Laue Bedingung erfüllt sein:
-\[\vec{k}-\vec{k'}=\vec{G}\]
-mit dem reziproken Gittervektor $\vec{G}$. 
-In diesem Fall der Oberflächenstreuung gibt es keine Beugungsbedingungen
-senkrecht zur Probenoberfläche, sodass wir konstruktive Interferenz erhalten,
-wenn die 
+\[\vec{k}-\vec{k'}=\Delta \vec{k}=\vec{G}\]
+mit dem reziproken Gittervektor $\vec{G}$, genauso wie die sogenannten Laue-Gleichungen
+\[\vec{a}_1\cdot \Delta \vec{k}=2\pi h_1\]
+\[\vec{a}_2\cdot \Delta \vec{k}=2\pi h_2\]
+\[\vec{a}_3\cdot \Delta \vec{k}=2\pi h_3\]
+wobei $\vec{a}_i$ die primitiven Gittervektoren des Realraums und $h_i$ die Millerschen Indizes
+sind. In diesem Fall der Oberflächenstreuung erhalten wir konstruktive Interferenz,
+wenn die Vektorkomponten parallel zur Oberfläche, $\Delta\vec{k}_{||}=\vec{k}_{||}-\vec{k'}_{||}$,
+einem reziproken Gittervektor der zweidimensionalen Oberfläche entspricht. Senkrecht zur Probenoberfläche
+gibt es keine solche Beugungsbedingung. Möchte man nun die Ewald-Konstruktion auf dieses
+zweidimensionale Problem anwenden, muss die dritte Laue-Bedingung falle gelassenn werden. Statt
+diskreter Punkte in der dritten Dimension werden nun jedem Gitterpunkt ($h_1, h_2$) durchgehende
+Linien senkrecht zur Oberfläche zugewiesen. Veranschaulicht ist diese Konstruktion in Abb.
+\ref{ewald}.} Der einkommende Strahl mit Wellenvektor $\vec{k}$ wird mit seiner Spitze auf einem
+reziproken Gitterpunkt positioniert, sein Anfang dient als Mittelpunkt der Ewaldkugel. Die
+Bedingung $\Delta \vec{k}_{||}=\vec{G}_{||}$ ist nun für jeden Punkt erfüllt, an dem die Kugel eine
+der Linien schneidet. \\
+Bei einer realen Streuung muss natürlich auch die Streuung der Elektronen an tieferen
+Schichten betrachtet werden, sodass die dritte Laue-Bedingung nicht komplett fallen gelassen werden
+kann. Je tiefer die Elektronen in den Kristall eindringen, desto mehr Beugungseffekte senkrecht zur
+Oberfläche tragen zum Beugungsbild ein, desto wichtiger wird also die Laue-Gleichung für diese
+Dimension. Nichts zu vernachlässigen sind außerdem einerseits mehrfach gestreute Elektronen sowie
+inelastisch gestreute Elektronen, die in dieser simple Konstruktion nicht mit einbezogen werden.
+Näheres dazu findet sich in BLA.
+
+
+
+
+
+
+
+
+
+
+
+

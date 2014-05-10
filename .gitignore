@@ -6,3 +6,8 @@ document.synctex.gz
 .gitignore~
 gettingstarted
 
+/document.dvi
+/tempPartial00000.pdf
+/tempPartial00000.synctex.gz
+/main.pdf
+/main.synctex.gz
