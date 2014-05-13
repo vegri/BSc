@@ -1,13 +1,13 @@
-document.pdf
+*.pdf
 tmp/
 .project
 .texlipse
 document.synctex.gz
 .gitignore~
 gettingstarted
+*.pdf_tex
 
 /document.dvi
 /tempPartial00000.pdf
 /tempPartial00000.synctex.gz
-/main.pdf
 /main.synctex.gz

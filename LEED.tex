@@ -1,3 +1,5 @@
+\FloatBarrier
+
 Eine einfache und verbreitete Methode, um etwas über Oberflächenstrukturen von
  Kristallen herauszufinden, ist eine Untersuchung mit LEED (Low Energy Electron
  Diffraction).
@@ -39,11 +41,19 @@ gibt es keine solche Beugungsbedingung. Möchte man nun die Ewald-Konstruktion a
 zweidimensionale Problem anwenden, muss die dritte Laue-Bedingung fallen gelassen werden. Statt
 diskreter Punkte in der dritten Dimension werden nun jedem Gitterpunkt ($h_1, h_2$) durchgehende
 Linien senkrecht zur Oberfläche zugewiesen. Veranschaulicht ist diese Konstruktion in Abb.
-\ref{drawings/ewald}. Der einkommende Strahl mit Wellenvektor $\vec{k}$ wird mit seiner Spitze auf einem
+\ref{ewald}. Der einkommende Strahl mit Wellenvektor $\vec{k}$ wird mit seiner Spitze auf einem
 reziproken Gitterpunkt positioniert, sein Anfang dient als Mittelpunkt der Ewaldkugel. Die
 Bedingung $\Delta \vec{k}_{||}=\vec{G}_{||}$ ist nun für jeden Punkt erfüllt, an dem die Kugel eine
 der Linien schneidet. 
-\includesvg{ewald}
+\begin{figure}[H]
+\centering
+\includesvg[width=0.5\textwidth]{ewald}
+\caption{Die Konstruktion der Ewaldkugel einer elastischen Streuung an einer zweidimensionale Oberfläche. Die
+reziproken Gitterpunkte $(hk)$ sind auf einer Achse $k_x$ eingezeichnet. Die Bedingung für konstruktive
+Interferenz, $\Delta \vec{k}_{||}=\vec{G}_{||}$,  ist erfüllt, wo die Kugel eine der senkrechten Linien
+schneidet, z.B. bei $(20)$. }
+\label{ewald}
+\end{figure}
 
 Bei einer realen Streuung muss natürlich auch die Streuung der Elektronen an tieferen
 Schichten berücksichtigt werden, sodass die dritte Laue-Bedingung nicht komplett fallen gelassen werden
@@ -54,7 +64,7 @@ inelastisch gestreute Elektronen, die in dieser simple Konstruktion nicht mit ei
 können diese jedoch durch die Linsen größstenteils herausgefiltert werden. Näheres zu einer dynamischen
 Theorie der Elektronenbeugung in LEED findet sich in BLA.
 
-
+\FloatBarrier
 
 
 
