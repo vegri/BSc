@@ -15,10 +15,21 @@
    height="1157.5938"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="wuerfel.svg">
   <defs
      id="defs4">
+    <linearGradient
+       id="linearGradient3865">
+      <stop
+         style="stop-color:#4e5256;stop-opacity:1;"
+         offset="0"
+         id="stop3867" />
+      <stop
+         style="stop-color:#c1c1c5;stop-opacity:1;"
+         offset="1"
+         id="stop3869" />
+    </linearGradient>
     <linearGradient
        id="linearGradient7453">
       <stop
@@ -164,6 +175,17 @@
          transform="matrix(-0.4,0,0,-0.4,-4,0)"
          inkscape:connector-curvature="0" />
     </marker>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3865"
+       id="radialGradient3871"
+       cx="244.20514"
+       cy="385.90366"
+       fx="244.20514"
+       fy="385.90366"
+       r="42.369205"
+       gradientTransform="matrix(0.99988008,0.01548612,-0.10013498,6.4653334,37.757268,-2041.573)"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -173,17 +195,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="82.523682"
-     inkscape:cy="613.16941"
+     inkscape:cx="531.11892"
+     inkscape:cy="696.05523"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1916"
-     inkscape:window-height="1106"
+     inkscape:window-width="1680"
+     inkscape:window-height="1001"
      inkscape:window-x="0"
-     inkscape:window-y="31"
+     inkscape:window-y="25"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -276,15 +298,15 @@
        x="121.95732"
        y="222.72908" />
     <rect
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#333333;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect3802-1"
        width="103.9872"
        height="18.390579"
        x="193.8098"
        y="453.77393"
-       ry="0" />
+       ry="9.1923885" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:url(#radialGradient3871);stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1"
        d="m 203.54278,453.44986 37.77144,-206.03673 8.22733,0 37.73964,205.91805"
        id="path4378"
        inkscape:connector-curvature="0"
@@ -312,16 +334,9 @@
        id="rect4427"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc" />
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect4429"
-       width="45.456848"
-       height="180.6404"
-       x="671.22363"
-       y="257.15857" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6, 1;stroke-dashoffset:0"
-       d="m 787.72584,305.33591 -71.07143,0 0,84.28572 71.07143,0"
+       d="m 785.47584,305.33591 -71.07143,0 0,84.28572 71.07143,0"
        id="path4431"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
@@ -370,7 +385,7 @@
        x="158.82375"
        y="516.17273" />
     <rect
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#999999;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect6942"
        width="32"
        height="79"
@@ -383,7 +398,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cczzzzcc" />
     <rect
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#999999;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect7461"
        width="249.03941"
        height="43.299255"
@@ -411,7 +426,7 @@
        x="231.13181"
        y="69.983276" />
     <rect
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#999999;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect7461-0"
        width="249.03941"
        height="43.299255"
@@ -466,7 +481,7 @@
        x="113.95754"
        y="628.60712" />
     <rect
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#999999;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect7461-4"
        width="249.03941"
        height="43.299255"
@@ -481,7 +496,7 @@
        y="-488.65466"
        transform="matrix(0,1,-1,0,0,0)" />
     <rect
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#999999;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect6942-8"
        width="32"
        height="79"
@@ -533,5 +548,13 @@
          id="tspan3945-3"
          x="657.23456"
          y="557.44299">Ventil</tspan></text>
+    <rect
+       style="fill:#999999;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect7461-42"
+       width="249.03941"
+       height="43.299255"
+       x="227.23358"
+       y="-714.4892"
+       transform="matrix(0,1,-1,0,0,0)" />
   </g>
 </svg>
