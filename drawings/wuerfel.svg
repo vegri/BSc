@@ -274,9 +274,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="175.46274"
-     inkscape:cy="357.79349"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="250.87864"
+     inkscape:cy="305.83191"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -390,7 +390,7 @@
          x="136.16296"
          y="397.69312">Konus</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.49856278;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       style="fill:#ececec;stroke:#000000;stroke-width:0.49856277999999998;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
        d="m 331.59815,361.80157 129.10724,0 0,61.99515 -50.19287,0 0,4.26226 -27.64585,0 0,-4.26226 -51.26852,0 z"
        id="rect4427"
        inkscape:connector-curvature="0"
@@ -418,13 +418,13 @@
        id="path4437"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.49856278;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#ececec;stroke:#000000;stroke-width:0.49856277999999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 363.25279,483.64168 13.19757,0 0,-10.02627 6.28983,0 0,-4.98395 27.80976,0 0,4.98395 9.98739,0 0,41.05735 -9.98739,0 0,4.96367 -27.80976,0 0,-4.96367 -6.28983,0 0,-9.88655 -13.19757,0 z"
        id="path6920"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccccc" />
     <rect
-       style="fill:none;stroke:#000000;stroke-width:0.49856278;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#ececec;stroke:#000000;stroke-width:0.49856277999999998;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;fill-opacity:1"
        id="rect4626-5"
        width="21.214205"
        height="55.701122"
@@ -432,7 +432,7 @@
        y="-347.31738"
        transform="matrix(0,1,-1,0,0,0)" />
     <rect
-       style="fill:none;stroke:#000000;stroke-width:0.49856278;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#ececec;stroke:#000000;stroke-width:0.49856277999999998;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;fill-opacity:1"
        id="rect6940"
        width="86.371597"
        height="34.460506"
@@ -459,14 +459,14 @@
        x="186.34871"
        y="511.36484" />
     <rect
-       style="fill:none;stroke:#000000;stroke-width:0.49856278;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#ececec;stroke:#000000;stroke-width:0.49856277999999998;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;fill-opacity:1"
        id="rect6940-1"
        width="86.371597"
        height="83.854462"
        x="205.2438"
        y="606.72028" />
     <rect
-       style="fill:none;stroke:#000000;stroke-width:0.49856278;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#ececec;stroke:#000000;stroke-width:0.49856277999999998;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;fill-opacity:1"
        id="rect7481"
        width="31.621443"
        height="31.160173"
@@ -504,7 +504,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.49856278px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#ececec;stroke:#000000;stroke-width:0.49856277999999998px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
        d="m 142.18418,831.32039 0,-119.1564 214.88056,0 0,119.1564"
        id="path3856"
        inkscape:connector-curvature="0"
@@ -528,7 +528,7 @@
          x="249.33307"
          y="818.26447">Substrat in Molekülkammer</tspan></text>
     <rect
-       style="fill:none;stroke:#000000;stroke-width:0.49856278;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#ececec;stroke:#000000;stroke-width:0.49856277999999998;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect3864"
        width="131.10883"
        height="51.753914"
@@ -542,7 +542,7 @@
        x="188.10425"
        y="584.71301" />
     <rect
-       style="fill:none;stroke:#000000;stroke-width:0.49856278;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#ececec;stroke:#000000;stroke-width:0.49856277999999998;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;fill-opacity:1"
        id="rect4626-5-8"
        width="21.214205"
        height="55.701122"
