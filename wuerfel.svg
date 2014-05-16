@@ -11,11 +11,11 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="419.99478"
-   height="586.37482"
+   width="436.09613"
+   height="586.62408"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="wuerfel.svg">
   <defs
      id="defs4">
@@ -266,6 +266,20 @@
          transform="matrix(-0.4,0,0,-0.4,-4,0)"
          inkscape:connector-curvature="0" />
     </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-0"
+       style="overflow:visible">
+      <path
+         id="path3925-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -274,18 +288,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="250.87864"
-     inkscape:cy="305.83191"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="228.16061"
+     inkscape:cy="426.25121"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1916"
-     inkscape:window-height="1106"
+     inkscape:window-width="1680"
+     inkscape:window-height="1001"
      inkscape:window-x="0"
-     inkscape:window-y="31"
+     inkscape:window-y="25"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -298,8 +312,8 @@
        visible="true"
        enabled="true"
        snapvisiblegridlinesonly="true"
-       originx="-119.2821px"
-       originy="-221.04177px" />
+       originx="-102.85046px"
+       originy="-220.79249px" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -309,7 +323,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -317,14 +331,22 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-119.2821,-244.94557)">
+     transform="translate(-102.85046,-244.94557)">
+    <rect
+       id="rect3081"
+       width="124.29308"
+       height="124.17436"
+       x="66.95417"
+       y="86.140976"
+       transform="translate(119.2821,244.94557)"
+       style="fill:#ececec;fill-opacity:1" />
     <path
        style="fill:#242ab4;fill-opacity:1;stroke:none"
        d="m 241.41819,265.75215 0.002,-3.24245 0.22623,-0.19879 c 0.58891,-0.51748 1.46274,-0.75689 2.46792,-0.67616 0.48256,0.0387 0.60113,0.0629 1.33228,0.27082 0.79602,0.22642 1.16503,0.30041 1.60926,0.32269 0.48355,0.0242 0.81423,-0.0202 1.58013,-0.21237 0.7962,-0.19978 1.18518,-0.25782 1.73196,-0.25846 0.6229,-7e-4 1.00643,0.0894 1.63798,0.38514 0.5438,0.25462 0.6155,0.27184 1.12055,0.26924 0.50793,-0.003 0.67148,-0.0354 1.49774,-0.30047 0.28043,-0.09 0.58516,-0.17177 0.67717,-0.18182 l 0.1673,-0.0183 0,3.54166 0,3.54168 -7.02662,0 -7.02662,0 0.002,-3.24245 z"
        id="path7485"
        inkscape:connector-curvature="0" />
     <rect
-       style="fill:#999999;stroke:#000000;stroke-width:0.49856277999999998;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;fill-opacity:1"
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.49856278;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect3802"
        width="51.844143"
        height="9.1688585"
@@ -339,15 +361,10 @@
        id="text3900"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         id="tspan3902"
-         x="299.79688"
-         y="254.06276"
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans">Ventil mit </tspan><tspan
-         sodipodi:role="line"
          x="297.88672"
-         y="266.06277"
+         y="254.06276"
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
-         id="tspan3904">Suspension</tspan></text>
+         id="tspan3904" /></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
@@ -382,15 +399,15 @@
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        x="136.16296"
-       y="397.69312"
+       y="399.69312"
        id="text4399"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan4401"
          x="136.16296"
-         y="397.69312">Konus</tspan></text>
+         y="399.69312">Konus</tspan></text>
     <path
-       style="fill:#ececec;stroke:#000000;stroke-width:0.49856277999999998;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       style="fill:#ececec;stroke:#000000;stroke-width:0.49856278;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
        d="m 331.59815,361.80157 129.10724,0 0,61.99515 -50.19287,0 0,4.26226 -27.64585,0 0,-4.26226 -51.26852,0 z"
        id="rect4427"
        inkscape:connector-curvature="0"
@@ -418,13 +435,13 @@
        id="path4437"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#ececec;stroke:#000000;stroke-width:0.49856277999999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#ececec;stroke:#000000;stroke-width:0.49856278;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 363.25279,483.64168 13.19757,0 0,-10.02627 6.28983,0 0,-4.98395 27.80976,0 0,4.98395 9.98739,0 0,41.05735 -9.98739,0 0,4.96367 -27.80976,0 0,-4.96367 -6.28983,0 0,-9.88655 -13.19757,0 z"
        id="path6920"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccccc" />
     <rect
-       style="fill:#ececec;stroke:#000000;stroke-width:0.49856277999999998;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;fill-opacity:1"
+       style="fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:0.49856278;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect4626-5"
        width="21.214205"
        height="55.701122"
@@ -432,7 +449,7 @@
        y="-347.31738"
        transform="matrix(0,1,-1,0,0,0)" />
     <rect
-       style="fill:#ececec;stroke:#000000;stroke-width:0.49856277999999998;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;fill-opacity:1"
+       style="fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:0.49856278;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect6940"
        width="86.371597"
        height="34.460506"
@@ -459,14 +476,14 @@
        x="186.34871"
        y="511.36484" />
     <rect
-       style="fill:#ececec;stroke:#000000;stroke-width:0.49856277999999998;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;fill-opacity:1"
+       style="fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:0.49856278;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect6940-1"
        width="86.371597"
        height="83.854462"
        x="205.2438"
        y="606.72028" />
     <rect
-       style="fill:#ececec;stroke:#000000;stroke-width:0.49856277999999998;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;fill-opacity:1"
+       style="fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:0.49856278;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect7481"
        width="31.621443"
        height="31.160173"
@@ -489,14 +506,14 @@
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="371.39621"
+       x="381.39621"
        y="651.95807"
        id="text3828"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan3830"
-         x="371.39621"
-         y="651.95807">Verbindugsstück</tspan></text>
+         x="381.39621"
+         y="651.95807">2. Verbindungsstück</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.49856278px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
        d="m 317.46135,648.64755 -24.21104,0"
@@ -504,8 +521,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:#ececec;stroke:#000000;stroke-width:0.49856277999999998px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
-       d="m 142.18418,831.32039 0,-119.1564 214.88056,0 0,119.1564"
+       style="fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:0.49856278px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 142.18418,831.32039 0,-97.59834 214.88056,0 0,97.59834"
        id="path3856"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
@@ -528,7 +545,7 @@
          x="249.33307"
          y="818.26447">Substrat in Molekülkammer</tspan></text>
     <rect
-       style="fill:#ececec;stroke:#000000;stroke-width:0.49856277999999998;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#ececec;stroke:#000000;stroke-width:0.49856278;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect3864"
        width="131.10883"
        height="51.753914"
@@ -542,7 +559,7 @@
        x="188.10425"
        y="584.71301" />
     <rect
-       style="fill:#ececec;stroke:#000000;stroke-width:0.49856277999999998;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;fill-opacity:1"
+       style="fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:0.49856278;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect4626-5-8"
        width="21.214205"
        height="55.701122"
@@ -565,17 +582,17 @@
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="391.25021"
-       y="704.6778"
+       x="439.25021"
+       y="726.26593"
        id="text3915"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan3917"
-         x="391.25021"
-         y="704.6778">Adapterflansch</tspan></text>
+         x="439.25021"
+         y="726.26593">Adapterflansch</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.49856278px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
-       d="m 343.59764,701.36726 -24.21104,0"
+       d="m 391.59764,722.95538 -24.21104,0"
        id="path3910-7-2-9"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -589,7 +606,7 @@
          sodipodi:role="line"
          id="tspan3945"
          x="471.62225"
-         y="563.1051">Ventil 2</tspan></text>
+         y="563.1051">Ventil 1</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
@@ -600,7 +617,7 @@
          sodipodi:role="line"
          id="tspan3945-3"
          x="463.73288"
-         y="497.47949">Ventil 1</tspan></text>
+         y="497.47949">Ventil 2</tspan></text>
     <rect
        style="fill:#999999;stroke:#000000;stroke-width:0.49856278;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect7461-42"
@@ -684,5 +701,53 @@
        id="path3910-70"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
-  </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="113.25866"
+       y="495.44446"
+       id="text3828-7"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3830-2"
+         x="113.25866"
+         y="495.44446" /></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.49856278px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 176.48962,502.8204 24.21104,0"
+       id="path3910-7-2-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3128"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       transform="translate(141.2821,246.94557)"><flowRegion
+         id="flowRegion3130"><rect
+           id="rect3132"
+           width="99"
+           height="56.5"
+           x="-42"
+           y="232.87483" /></flowRegion><flowPara
+         id="flowPara3134"
+         style="text-align:center;text-anchor:middle">1. Verbindungs-stück</flowPara></flowRoot>    <rect
+       style="fill:#999999;stroke:#000000;stroke-width:0.49856278;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect7461-0-2"
+       width="214.88692"
+       height="21.587402"
+       x="142.18111"
+       y="712.16168" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3156"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       transform="translate(102.85046,244.94557)"><flowRegion
+         id="flowRegion3158"><rect
+           id="rect3160"
+           width="89.5"
+           height="42.5"
+           x="171"
+           y="0.62409991" /></flowRegion><flowPara
+         id="flowPara3162">Ventil mit </flowPara><flowPara
+         id="flowPara3164">Suspension</flowPara></flowRoot>  </g>
 </svg>
