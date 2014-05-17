@@ -1,7 +1,7 @@
 \subsection{Aufbau der UHV-Apparatur}
 
 Der Sprühbeschichter soll auf der bisher vorhandenen Ultrahochvakuums-Apparatur (siehe Abb
-\ref{uhvaufbau}) aufgebaut werden.%, in der das Substrat präpariert werden kann.
+\ref{uhvaufbau}) aufgebaut werden.~%, in der das Substrat präpariert werden kann.
  Diese besteht aus mehrerern Kammern, die untereinander verbunden sind. Die gesamte Apparatur ist
 auf vier Druckluftfüßen gelagert, um über den Boden übetragende störende Schwingungen zu minimieren. Um ein
 Ultrahochvakuum im Bereich von $10^{-10}$mbar zu erzeugen, kann die Apparatur zunächst mit einem
@@ -20,10 +20,11 @@ mittels Rastertunnelmikroskopie- und spektroskopie untersucht werden. In der Hau
 Probe durch einen unten in der Kammer eingebauten Metallverdampfer mit
 verschiedenen Metallen (Gold, Eisen, Kobalt) bedampft, durch Erhitzen von Ablagerungen auf der
 Oberfläche gereinigt ("`geflasht"') sowie die Probenoberfläche durch LEED untersucht werden. Die
-hier verwendete LEED-Apparatur ist ein "`Spectaleed"  von Omicron. 
-Weiterhin sind hier Augerspektroskopie und Kerr-Messung möglich, die jedoch hier nicht zum Einsatz
-kamen.\\
-Das verwendete Substrat, in diesem Fall der (XXX)Rheniumkristall, kann im Probenhalter mittels des
+hier verwendete LEED-Apparatur ist ein "`Spectaleed"'  von Omicron. 
+%Weiterhin sind hier Augerspektroskopie und Kerr-Messung möglich, die jedoch hier nicht zum Einsatz
+%kamen.
+\\
+Das verwendete Substrat kann im Probenhalter mittels des
 Transferstabs durch die Kammern transportiert werden. In die Molekülkammer kann er mit einem
 weiteren, kleineren Transferstab gesetzt werden. Ein Transfer zum Probentisch des STMs in der
 STM-Kammer ist mit Hilfe des sogenannten Wobblesticks möglich, mit dessen Greifzange die Probe an der Probennase gehalten und in
@@ -34,8 +35,8 @@ Am Manipulator ist ein Heizfilament angebracht, über den der Kristall geflasht 
 Dabei wird das Filament zum Glühen gebracht, die durch Glühemission emittierten Elektronen werden
 durch eine an die Probe angelegte Hochspannung zum Kristall hin beschleunigt und heizen diesen dann
 durch Stöße bis zum Glühen auf. In diesem Prozess werden aufgedampfte Schichten, aber auch
-Ablagerungen, die sich selbst im Ultrahochvakuum (früher oder später) auf Oberflächen absetzen,
-entfernt.\\
+Ablagerungen entfernt. Selbst bei einem Druck von $10^{-10}$mbar lagern sich Restgasmoluküle auf
+Oberflächen ab; nach einem Tag entspricht dies in etwa einer Monolage.\\
 Weiterhin kann das Filament dazu benutzt werden, ohne angelegte Hochspannung die Probe einfach nur
 zu erwärmen ("`tempern"'). Dies kann die Oberflächenstrukturen nach Aufdampfen eines Metalls
 deutlich ändern. Die erreichte Temperatur lässt sich aus dem Filamentstrom bestimmen.\\
@@ -48,22 +49,62 @@ aufgedampften Lagen auf der Probe bestimmt werden kann. Nach Skalierung wird hie
 angezeigte Periodendauer genutzt, dabei entsprechen für Gold z.B. 250 Skaltenteile etwa einer
 Monolage Gold auf der Probe.\\
 Der Druck in der Hauptkammer wird über eine Bayard-Alpart-Röhre gemessen, die sich unten in der
-Kammer befindet. Zudem befindet sich ein weiteres Druckmessgerät von %\ldots 
+Kammer befindet. Zudem befindet sich ein weiteres Druckmessgerät %\ldots 
 an der Molekülkammer.
 Zur Restgasanalyse und Lecksuche dient ein Massenspektrometer.% (Pfeiffer Vacuum PrismaPlus QMG220).
 
 
 \subsection{Das Rastertunnelmikroskop}
 
+Das hier verwendete Rastertunnelmikroskop ist ein Micro-STM der Firma Omicron. Es besteht
+prinzipiell aus einem Röhrenscanner mit einer STM-Spitze aus Platin-Iridium-Draht und einem
+Probentisch, über den der Probenhalter bewegt werden kann (siehe Abb. \ref{stmaufbau}). Sowohl der
+Röhren\-scanner als auch der Probentisch werden über Piezoelemente bewegt, mit denen sowohl Scanner
+als auch Tisch in x-y-Richtung bewegt werden können, der Scanner zum Rastern der Oberfläche und der
+Tisch zum Ausrichten der zu messenden Stelle der Probe; weiterhin kann der Scanner in z-Richtung an
+die Probe angenähert werden.
+
+% der Scanner in z-Richtung an die Probe angenähert sowie
+% zum Rastern der Oberfläche in x-y-Richtung bewegt und der Probentisch in x-y-Richtung
+% ausgerichtet werden kann.
+Die Steuerung erfolgt über eine Fernbedienung.
+Die Spitze des STMs wird dabei so nah wie möglich an die Probe herangefahren, was über die
+Spiegelung der Spitze in der Probe, gefilmt über eine schräg unterhalb des Probentisches angebrachte
+USB-Kamera, abgeschätzt werden kann. Die Feinanpassung wird über die zugehörige Software erledigt.
+Dabei wird die Spitze in kleinen Schritten soweit angenähert, bis ein Tunnelstrom gemessen werden
+kann. Anschließen wird die Probe wiederum manuell noch zwei bis drei Schritte weiter an die Probe
+herangefahren, um den Tunnelstrom zu stabilisieren.\\
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=5cm]{kamera2.jpg}
+\caption{\textit{bla
+}}
+\label{stmaufbau}
+\end{figure}
+
+Grundsätzlich gibt es zwei Messmethoden. Im Konstathöhenmodus wird der Abstand zwischen Spitze und
+Probenoberfläche konstant gehalten. Die Messgröße ist der Tunnelstrom, der im resultierenden
+Scanbild als Helligkeitskontrast dargestellt wird. Diese Einstellung ermöglicht eine relative hohe
+Scangschwindigkeit, da die Höhe der Spitze nicht nachreguliert werden muss, eignet sich
+allerdings auch nur für sehr ebenmäßige Oberflächen, da die Gefahr einer Kollision bei Erhöhungen
+der Oberfläche oder die eines Verlusts des Tunnelkontakts bei Mulden besteht.\\
+Beim Konstantstrommodus wird der Tunnelstrom durch ständiges Nachregulieren der Höhe konstant
+gehalten. So erzählt man ein Höhenprofil für die abgerasterte x-y-Ebene, welches ebenfalls durch
+Helligkeitskontraste dargestellt wird. Hierbei können auch unregelmäßige Oberflächen gescannt
+werden. Zu bemerken ist, dass das scheinbar topographische Bild eigentlich die elektronische
+Zustandsdichte der Oberfläche widerspiegelt.
+
 
 
 
 \subsection{Aufbau des Sprühbeschichters}
+\FloatBarrier
 
 Der Sprühbeschichter funktioniert im wesentlichen über ein Druckgefälle innerhalb seines Aufbaus, durch das
 die in einer Lösung gelösten Moleküle auf das Substrat "`gesaugt"' werden und sie dort im besten
 Falle haften bleiben. 
-\begin{figure}[H]
+\begin{figure}
 \centering
 \includesvg{wuerfel}
 \caption{\textit{Der Aufbau des Sprühbeschichters. 
@@ -93,8 +134,8 @@ nicht in Tröpfchen. Gleichzeitig soll er durch seine kleine Öffnung einen schn
 dem unteren Teil und dem Würfel verhindern. \\
 Weiterhin sind zwei weitere Ventile in dem Aufbau enthalten. Mit Ventil 1 kann der Würfel von der
 Molekülkammer abgetrennt werden. Dies kann man nutzen, um Würfel oder das elektrische Ventil zu säubern, ohne
-dabei der kompletten vorderen Teil der Kammer belüften zu müssen. Wird der Würfel dann bei geschlossenem
-Ventil 1 erneut über den Pumpstand vakuumiert, kann Ventil 2 geöffnet werden, damit auch das Verbindungsstück
+dabei den kompletten vorderen Teil der Kammer belüften zu müssen. Wird der Würfel dann bei
+geschlossenem Ventil 1 erneut über den Pumpstand vakuumiert, kann Ventil 2 geöffnet werden, damit auch das Verbindungsstück
 unterhalb des Würfels über Schlauch und T-Stück mitgepumpt werden kann und nicht nur über die kleine Öffnung
 des Konus.\\
 Das zweite Verbindungsstück ist eine Überbrückung zwischen Ventil 1 und Adapterflansch, mit dem
@@ -114,5 +155,5 @@ gelangten Moleküle sollten sich in der restlichen Kammer verteilen und auf dem 
 % oder das Ventil für die Suspension gereinigt werden müssen. Auf diese Weise muss nicht der ganze
 % vordere Teil der Vakuumkammer, sondern nur der Würfel belüftet werden.\\
 
-
+\FloatBarrier
 

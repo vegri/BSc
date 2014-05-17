@@ -1,0 +1,186 @@
+Der Aufbau zur Spraydeposition wurde an einer kleineren HV-Apparatur getestet (siehe \ref{testapparatur}). Der
+Vorteil ist, dass diese Kammer wegen ihres kleineren Volumens schneller abgepumpt werden kann, was bei
+auftretenden Problemen, bei denen man die Kammer öffnen muss, ein schnelleres Arbeiten ermöglicht.\\
+Die sogenannte Testapparatur besteht aus zwei Pumpen (Vorpumpe (1) und Hauptpumpe (2)),
+einer Hauptkammer mit Massenspektrometer (3) und Druckmessgerät bla (4) sowie dem aufgesetzten
+Sprühbeschichter (4). Am Würfel des Beschichters ist eine (weitere) Membranpumpe angebracht (5). Das Ventil
+zum Einspritzen des aufzutragenden Moleküls (6) wird angesteuert über ein Netzteil von IotaOne (7). Das
+Substrat, hier zum Test ein Glasträger, befindet sich unterhalb des Beschichters (7.5) und kann durch einen
+Fensterflansch beobachtet werden.\\
+Die Ansteuerung des Ventils ermöglicht
+prinzipiell zwei Modi: ein einmaliges Öffnen des
+Ventils für einen einstellbaren Zeitraum (One
+Shot Modus) und einen Zyklus von abwechselndem
+Öffnen und Schließen des Ventils (Cycle Modus).
+Da ein Einspritzen der Lösung in das Vakuum
+natürlich den Druck steigen lässt, wurde hier
+zunächst der Cycle Modus getestet, da so
+mutmaßlich der Druck durch das Schließen des
+Ventils zwischendrin besser erhalten werden
+kann. In diesem Modus müssen die Dauern für das
+Öffnen (On-Time) und des Schließens (Off-Time)
+gewählt werden, wobei die Off-Time
+betriebsbedingt mindestens so lang wie die
+On-Time sein muss.\\
+Beim Vakuumieren der Apparatur wurde Ventil 1
+ geschlossen und Beschichter sowie die 
+ Hauptkammer getrennt gepumpt, bis beide
+ Vakuumpumpen jeweils vollständig hochgefahren
+ waren.
+ Um ein Druckgefälle zwischen Würfel und unterem
+ Teil des Aufbaus herzustellen, getrennt durch den
+ Konus, wurde dann Ventil 2 geschlossen und
+ Ventil 1 geöffnet.
+ Somit sollte innerhalb des Konus und dem
+ Verbindungsstück darunter annähernd der gleiche
+ Druck herrschen wie im Rest der Haupkammer.
+ Nun konnte das gelöste Molekül über eine Pipette
+ in das Reservoir des elektrischen Ventils
+ eingefüllt und die On- sowie Off-Time gewählt
+ werden.\\
+Bei dem zum Testen zunächst benutzten Molekül
+handelte es sich um Kupfer-2-phthalocyanin (kurz
+CuPc), ein blauer Feststoff, der als Pigment
+beispielsweise in Kunststoffen, Lacken oder
+Druckerfarben verwendet wird. Das CuPc wurde in
+dem farblosen organischen Lösungsmittel
+Dimethylsulfoxid (kurz DMSO) aufgelöst, woraus
+sich eine grobe Suspension ergab.\\ 
+Der Versuch, On- und Off-Zeiten für das Ventil im
+Bereich von wenigen Mikrosekunden einzustellen,
+scheiterte, vermutlich wegen der Trägheit der Mechanik des
+Ventils. Nachfolgend wurden sukzessive
+On-Zeiten von 20, 30, 40ms mit jeweils gleich
+langen Off-Zeiten getestet. Die Zyklendauern
+wurden von 5s langsam auf bis zu 90s erhöht.
+Hier offenbarten sich direkt Probleme mit der
+Suspension: obwohl sich zu Beginn immerhin die
+Spitze des Konus blau färbte, wurde
+zwischenzeitlich scheinbar durch gröbere Partikel
+in der Lösung die Öffnung des Ventils verstopft,
+sodass auch bei längerer Zyklusdauer der Pegel im
+Ventil konstant blieb. Um Ablagerungen auf dem
+Ventil zu entfernen, wurde es mit DMSO ausgespült
+und danach für den nächsten Zyklus mit reinem
+DMSO befüllt. Nach dem zweiten Durchgang öffnete
+sich das Ventil wieder, der Pegel sank.
+Vermutlich konnte sich die Öffnung des Ventils
+durch die Vibrationen während des Betriebs
+"`freischütteln"'. Bei den nachfolgenden
+Messungen war nach einer Zyklusdauer von etwa 20s
+das Ventil leer, sodass nur noch Luft in die
+Kammer gesogen wurde.
+Längere Zyklen konnten also nur durchgeführt
+werden, indem manuell während der Messung das
+Ventil nachgefüllt wurde.
+\\
+Der Druck in der Hauptkammer war zu Beginn jedes
+Zyklus im Bereich von $10^{-7}$ bis $10^{-6}$.
+War die Öffnung des Ventils frei und konnte die
+Lösung in die Kammer eintreten, fiel der Druck in
+der Hauptkammer in den Bereich $10^{-4}$. Eine
+Druckmessung im Würfel war zunächst nicht möglich.\\
+Nach diversen Versuchen mit den genannten Parametern waren auf dem Glasträger kaum blaue Partikel zu
+beobachten, im Würfel hatte sich jedoch auf dem Konus, dem Boden sowie den Seitenwänden eine blaue Schicht
+gebildet. Zu diesem Zeitpunkt gab die Membranpumpe am Würfel eine Fehlermeldung, vermutlich war das
+zu pumpende Gasvolumen, verursacht durch das DMSO, zu hoch. Gleichzeitig war zu vermuten, dass auch die
+Öffnung des Konus verstopft sein könnte, also wurde der Würfel zunächst auseinandergebaut und gereinigt.\\
+Beim Reinigen fiel auf, dass der Konus innen etwa auf dem ersten Centimeter eine blaue Schicht aufwies, der
+Rest des Konus und der restliche Weg bis zum Glasträger wies keine augenscheinlichen Blaufärbungen auf. Die
+nächste Idee war es, die CuPc-DMSO Lösung zu filtern, um grobe Partikel nicht mit in das Vakuum einzubringen.
+Die vom Institut für Organische Chemie der Uni Mainz erhaltenen Filterpapiere waren jedoch  trotz gröbster
+Stufe immer noch zu fein, sodass nach dem Filtern nur eine schwach bläuliche Flüssigkeit übrig blieb. Diese
+Flüssigkeit wurde nicht getestet, da die Vermutung nahe lag, dass das Verhältnis Lösung zu Farbstoff zu hoch
+war - und durch die viele Flüssigkeit nur die Pumpe belastet würde, ohne dass es das wenige CuPc bis zum
+Glasträger schaffen würde.\\
+Stattdessen wurde weiter die Suspension mit der gröberen Partikeln verwendet, jedoch die interne Vorpumpe im
+Pumpstand für den Würfel abgeschraubt und eine andere, für höhere Gasvolumina ausgelegte Vorpumpe extern
+angeschlossen. Zudem wurde die On-Time auf 1ms eingestellt, die Off-Time jedoch auf 50ms, später auf 100ms, um
+den Druck insgesamt besser erhalten zu können. Außerdem wurde an den Würfel ein Druckmessgerät angeschlossen.
+Bei den folgenden Messungen fiel der Druck von anfänglich $10^{-5}$ in den $10^{-3}$-Bereich in der
+Hauptkammer, im Würfel schwankte der Druck hauptsächlich im $10^{-2}$-Bereich. Nach fünf Durchgängen war der
+Strom bei beiden Pumpen auf über 2A gestiegen, sie somit also eine sehr hohe Leistung erbringen mussten, und
+weiterhin war nichts auf dem Glasträger zu sehen.\\
+Als nächstes wurde das Lösungsmittel getauscht, das DMSO wurde durch Dimethylformamid (kurz DMF) ersetzt,
+da dieses das CuPc besser lösen sollte. Leider blieben noch immer grobe Partikel in der Lösung übrig. Weiterhin
+wurden die On/Off-Zeiten geändert und die On-Time immer weiter verkürzt, bis zu 1ms On und 3s Off. Dies
+bewirkte, dass innerhalb eines Ventil-auf-Ventil-zu-Zyklusses der Druck zwar anstieg bis in den
+$10^{-3}$-Bereich, sich jedoch vor dem erneuten Öffnen des Ventils wieder in den Anfangsbereich $10^{-5}$
+regulierte. Im Würfel schwankte der Druck wie vorher nur im mittleren $10^{-2}$-Bereich.\\
+Nachdem sich immer noch keine sichtbare Schicht auf dem Glasträger absetzte, wurde der Aufbau kurzerhand
+geändert: Ventil 1 wurde abgeschraubt und direkt
+an den Zugang zum Pumpstand gelegt.
+Kammer und Würfel können auf diese Weise zwar nicht mehr komplett getrennt gepumpt werden, jedoch sollte
+weiterhin ein Druckgefälle von Würfel und Kammer möglich sein. Der Vorteil dieses Aufbaus ist, dass das bisher
+notwendige Verbindungsstück zwischen großem Ventil und dem Adapterflansch wegfallen konnte, sich somit der Weg
+zum Glasträger verkürzt. \\
+ Da sich nach einem Versuch mit dem geänderten Aufbau die Öffnung des Konus zusetzte - der Druck in der
+ Hautkammer änderte sich gar nicht mehr, sondern fiel immer weiter - wurde beschlossen, ein anderes Molekül als CuPc zu nehmen, da die
+Parikel offensichtlich nur schlecht durch die Öffnung passen. Lösungsmittel, die es noch besser lösen könnten,
+fallen unter die Kategorie stark gesundsheitsschädlich und sollten wegen mangelndem Abzug in diesem Fall nicht
+verwendet werden.\\
+Das nächste Lösungsmittel war Tetracyanochinodimethan (TCNQ), ein gelbfarbener, organische
+Halbleiter, gelöst in Tetrahydrofuran (THF), wie die bisherigen Lösungsmittel ebenfalls ein
+organisches Lösungsmittel. \\
+Der erste Versuch lieferte bei einer On-Time von 1ms und einer Off-Time von 4s und einer
+Gesamtdauer von 15min wiederum keine Farbablagerungen auf dem Glasträger. Der Druck ändert sich im
+Würfel vom $10^{-2}$ in den $10^{-1}$mbar-Bereich, in der Kammer stieg er von $10^{-5}$ wieder auf $10^{-3}$mbar. Da der
+Pumpstand, angezeigt durch hohen Strom und fallender Drehzahl, das Gasvolumen nicht verarbeiten
+konnte, blieb es bei diesem Versuch mit diesen Parametern.\\
+Mit der Vermutung, dass die Öffnung des Konus zu klein sein könnte, wurde dieser für die nächste
+Messung komplett entfernt, ebenso die Anbindung an den mobilen Pumpstand. Nun war kein Druckgefälle
+in Richtung des Glasträgers mehr vorhanden, dennoch sollte sich die Suspension ins Vakuum gebracht
+verteilen und sich, so die Hoffnung, auch auf den Glasträger ablagern. Da nun das Gasvolumen durch
+keine zusätzliche Pumpe mehr gepumpt werden konnte, wurde, um den Druck einigermaßen zu erhalten,
+die On-Time auf 500µs erniedrigt, außerdem wurde zu zunächst der One-Shot-Modus eingestellt. Der
+Druck stieg in der Kammer nur innerhalb des $10^{-5}$mbar-Bereiches an. Nach fünf Versuchen war auch
+hier keine Beobachtung auf dem Glasträger zu machen. \\
+Da auch der Würfel bei diesem Aufbau eigentlich nicht gebraucht wird, genauso wie die Ventile und
+Verbindungen, konnte die Strecke zwischen Ventil und Glasträger weiter reduziert werden, indem der
+Würfel komplett ausgebaut und das Ventil direkt auf den Adapterflansch über dem Glasträger befestigt
+wurde. Außerdem wurden Edelstahlplättchen auf den
+Glasträger geleget, da zur Vermutung stand, dass
+das verwendete Molekül auf Glas nicht gut haftet.
+Zuerst wurde getestet, bei welchen
+Öffnungszeiten des Ventils der Druck innerhalb der Kammer vom Startwert (i. d. R $3\cdot10^{-5}$mbar) über den Druckanstieg zurück zum Startwert ging. Getestet wurden Zeiten in der Reihenfolge von 500, 300, 200, 250µs. Bei 200µs änderte sich der Druck in der Kammer gar nicht, sondern fiel weiter. Vermutlich lag auch diese On-Time außerhalb der mechanischen Reaktionsfähigkeit des Ventils. Die Zeiten bis zur
+Erholung des Druckes lagen bei etwa 60s für 500µs, 50s für 300µs und stark schwankend zwischen 45s
+und 70s für 250µs. Der Druck steig bei allen Versuchen auch nur innerhalb des
+$10^{-5}$mbar-Bereiches an, je kürzer die On-Time, desto kleiner der Druckanstieg. Bei diesen
+Versuchen war noch keine Beobachtung auf dem Glasträger zu machen. Um auszuschließen, dass dies an
+der Kürze des Zeitintervalls lag, wurde eine lange Messung im Cycle-Modus über 1h und 15min
+durchgeführt bei einer On-Time von 250µs und einer Off-Time von 70s, um den Druck über diesen
+Zeitraum nicht konstant langsam zu steigern. Auch nach diesem Versuch war weder ein Gelbschimmer
+auf dem Glasträger noch auf den Metallträgern zu sehen. Ob sich wenige Monolagen abgesetzt haben könnten, kann man durch diese
+augenscheinliche Betrachtung nicht feststellen.\\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
