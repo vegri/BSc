@@ -8,7 +8,7 @@
     xmlns:lr="http://ns.adobe.com/lightroom/1.0/"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmp:Rating="1"
-   xmpMM:DerivedFrom="10ML_E207.JPG"
+   xmpMM:DerivedFrom="IMG_7674.JPG"
    darktable:xmp_version="1"
    darktable:raw_params="0"
    darktable:auto_presets_applied="1">
@@ -50,18 +50,10 @@
      <rdf:li>1</rdf:li>
      <rdf:li>2</rdf:li>
      <rdf:li>5</rdf:li>
-     <rdf:li>1</rdf:li>
-     <rdf:li>1</rdf:li>
-     <rdf:li>2</rdf:li>
-     <rdf:li>5</rdf:li>
     </rdf:Seq>
    </darktable:history_modversion>
    <darktable:history_enabled>
     <rdf:Seq>
-     <rdf:li>1</rdf:li>
-     <rdf:li>1</rdf:li>
-     <rdf:li>1</rdf:li>
-     <rdf:li>1</rdf:li>
      <rdf:li>1</rdf:li>
      <rdf:li>1</rdf:li>
      <rdf:li>1</rdf:li>
@@ -90,10 +82,6 @@
      <rdf:li>bilat</rdf:li>
      <rdf:li>monochrome</rdf:li>
      <rdf:li>clipping</rdf:li>
-     <rdf:li>invert</rdf:li>
-     <rdf:li>bilat</rdf:li>
-     <rdf:li>monochrome</rdf:li>
-     <rdf:li>clipping</rdf:li>
     </rdf:Seq>
    </darktable:history_operation>
    <darktable:history_params>
@@ -101,27 +89,19 @@
      <rdf:li>0000803f0000803f0000803f</rdf:li>
      <rdf:li>0000a0420000aa424a0ca23f</rdf:li>
      <rdf:li>00000000000000000000004000000000</rdf:li>
-     <rdf:li>000000008335883edd31963e035b313feccc433f0000000000000000cdcc4c3ecdcc4c3ecdcc4c3fcdcc4c3ecdcc4c3fcdcc4c3fcdcc4c3ecdcc4c3f000000000000000000000000010000000000000000000000</rdf:li>
-     <rdf:li>0000803f0000803f0000803f</rdf:li>
-     <rdf:li>0000a0420000aa424a0ca23f</rdf:li>
-     <rdf:li>00000000000000000000004000000000</rdf:li>
      <rdf:li>000000008a199e3edc31963e035b313fc4664b3f0000000000000000cdcc4c3ecdcc4c3ecdcc4c3fcdcc4c3ecdcc4c3fcdcc4c3fcdcc4c3ecdcc4c3f000000000000000000000000010000000000000000000000</rdf:li>
      <rdf:li>0000803f0000803f0000803f</rdf:li>
      <rdf:li>0000a0420000aa424a0ca23f</rdf:li>
      <rdf:li>00000000000000000000004000000000</rdf:li>
-     <rdf:li>000000009065a53ea211673e20cd343f92ef3e3f0000000000000000cdcc4c3ecdcc4c3ecdcc4c3fcdcc4c3ecdcc4c3fcdcc4c3fcdcc4c3ecdcc4c3f000000000000000000000000010000000000000000000000</rdf:li>
+     <rdf:li>000000005427a23edab8903e022e333f97874d3f0000000000000000cdcc4c3ecdcc4c3ecdcc4c3fcdcc4c3ecdcc4c3fcdcc4c3fcdcc4c3ecdcc4c3f000000000000000000000000010000000000000000000000</rdf:li>
      <rdf:li>0000803f0000803f0000803f</rdf:li>
      <rdf:li>0000a0420000aa424a0ca23f</rdf:li>
      <rdf:li>00000000000000000000004000000000</rdf:li>
-     <rdf:li>00000000a420913ea403723e06203e3f11ac413f0000000000000000cdcc4c3ecdcc4c3ecdcc4c3fcdcc4c3ecdcc4c3fcdcc4c3fcdcc4c3ecdcc4c3f000000000000000000000000010000000000000000000000</rdf:li>
+     <rdf:li>00000000de128d3ef4a2643e23193c3fe5533e3f0000000000000000cdcc4c3ecdcc4c3ecdcc4c3fcdcc4c3ecdcc4c3fcdcc4c3fcdcc4c3ecdcc4c3f000000000000000000000000010000000000000000000000</rdf:li>
     </rdf:Seq>
    </darktable:history_params>
    <darktable:blendop_params>
     <rdf:Seq>
-     <rdf:li>gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=</rdf:li>
-     <rdf:li>gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=</rdf:li>
-     <rdf:li>gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=</rdf:li>
-     <rdf:li>gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=</rdf:li>
      <rdf:li>gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=</rdf:li>
      <rdf:li>gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=</rdf:li>
      <rdf:li>gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=</rdf:li>
@@ -150,10 +130,6 @@
      <rdf:li>7</rdf:li>
      <rdf:li>7</rdf:li>
      <rdf:li>7</rdf:li>
-     <rdf:li>7</rdf:li>
-     <rdf:li>7</rdf:li>
-     <rdf:li>7</rdf:li>
-     <rdf:li>7</rdf:li>
     </rdf:Seq>
    </darktable:blendop_version>
    <darktable:multi_priority>
@@ -170,18 +146,10 @@
      <rdf:li>0</rdf:li>
      <rdf:li>0</rdf:li>
      <rdf:li>0</rdf:li>
-     <rdf:li>0</rdf:li>
-     <rdf:li>0</rdf:li>
-     <rdf:li>0</rdf:li>
-     <rdf:li>0</rdf:li>
     </rdf:Seq>
    </darktable:multi_priority>
    <darktable:multi_name>
     <rdf:Seq>
-     <rdf:li> </rdf:li>
-     <rdf:li> </rdf:li>
-     <rdf:li> </rdf:li>
-     <rdf:li> </rdf:li>
      <rdf:li> </rdf:li>
      <rdf:li> </rdf:li>
      <rdf:li> </rdf:li>
