@@ -37,6 +37,7 @@
 
 
 
+
 %_______________________________________________________________________________
 % bold fonts for headings
 %_______________________________________________________________________________
@@ -151,19 +152,19 @@
 % \subsection{Oberflächenstrukturen}
 % \input{oberflaechen}
 \subsection{Rastertunnelmikroskopie}
-\input{starting_stm}
-\subsection{LEED-Untersuchung}
-\input{LEED}
+\import{theorie/}{starting_stm.tex}
+ \subsection{LEED-Untersuchung}
+ \import{theorie/}{LEED.tex}
 
 
-% \section{Versuchsaufbau} 
-% \input{starting_versuchsaufbau}
+ \section{Versuchsaufbau} 
+ \import{versuchsaufbau/}{starting_versuchsaufbau}
  
 \section{Aufbringen dünner Au-Schichten auf einem Re-Kristall}
-\input{goldaufre}
+\import{goldaufre/}{goldaufre}
  
-\section{Test des Dinges: Aufbringen von Molekül auf Substrat} \label{kaptest}
-\input{test_sb_langeversion}
+\section{Test der Apparatur zur Sprühbeschichtung} \label{kaptest}
+\import{testsb/}{test_sb_langeversion}
 
 
 

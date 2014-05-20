@@ -25,15 +25,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1098"
+     inkscape:window-width="1680"
+     inkscape:window-height="1001"
      id="namedview4"
      showgrid="false"
      inkscape:zoom="2.1580324"
-     inkscape:cx="220.16003"
+     inkscape:cx="221.0868"
      inkscape:cy="108.09085"
      inkscape:window-x="0"
-     inkscape:window-y="31"
+     inkscape:window-y="25"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
      units="cm"
@@ -350,20 +350,21 @@
     </marker>
   </defs>
   <image
-     width="223.47929"
-     height="178.78345"
-     xlink:href="file:///home/kunzejo/workspace/BSc/fotos/kamera2.jpg"
-     id="image3034"
+     sodipodi:absref="/home/verena/Desktop/workspace/BSc/versuchsaufbau/../fotos/kamera2.jpg"
+     xlink:href="../fotos/kamera2.jpg"
+     y="0.0066604614"
      x="0"
-     y="0.0066604614" />
+     id="image3034"
+     height="178.78345"
+     width="223.47929" />
   <image
-     y="0"
-     x="236.09956"
-     id="image3056"
-     height="178.79677"
+     sodipodi:absref="/home/verena/Desktop/workspace/BSc/versuchsaufbau/../fotos/IMG_1063.jpg"
+     xlink:href="../fotos/IMG_1063.jpg"
      width="233.30476"
-     xlink:href="/home/kunzejo/workspace/BSc/fotos/IMG_1063.jpg"
-     sodipodi:absref="/home/kunzejo/workspace/BSc/fotos/IMG_1063.jpg" />
+     height="178.79677"
+     id="image3056"
+     x="236.09956"
+     y="0" />
   <g
      transform="matrix(1.3227917,0,0,1.3227917,-36.321698,-84.386978)"
      style="fill:#ffcc00;stroke:#ffa90e;stroke-opacity:1"
