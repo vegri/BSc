@@ -11,10 +11,10 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="324.6369"
-   height="319.67709"
+   height="327.20532"
    id="svg3309"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.3.1 r9886"
    sodipodi:docname="sb.svg">
   <defs
      id="defs3311">
@@ -130,6 +130,20 @@
          transform="matrix(-0.4,0,0,-0.4,-4,0)"
          inkscape:connector-curvature="0" />
     </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-6"
+       style="overflow:visible">
+      <path
+         id="path4234-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -138,9 +152,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="161.23694"
-     inkscape:cy="235.67497"
+     inkscape:zoom="1.979899"
+     inkscape:cx="97.024395"
+     inkscape:cy="156.34768"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -148,11 +162,13 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1680"
-     inkscape:window-height="1001"
+     inkscape:window-width="1916"
+     inkscape:window-height="1106"
      inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:window-maximized="1" />
+     inkscape:window-y="31"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
   <metadata
      id="metadata3314">
     <rdf:RDF>
@@ -169,15 +185,16 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-400.5387,-378.23792)">
+     transform="translate(-400.5387,-373.63022)">
     <image
-       sodipodi:absref="/home/verena/Desktop/workspace/BSc/testsb/../fotos/IMG_1106.jpg"
+       sodipodi:absref="/fs01/ma10/homes/kunzejo/workspace/BSc/testsb/../fotos/IMG_1106.jpg"
        xlink:href="../fotos/IMG_1106.jpg"
-       width="178.24501"
-       height="319.67709"
+       transform="matrix(0.99942881,-0.03379439,0.03379439,0.99942881,0,0)"
+       y="395.78439"
+       x="420.69943"
        id="image3034"
-       x="439.18515"
-       y="378.23792" />
+       height="319.67709"
+       width="178.24501" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.65875226px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
        d="m 592.38013,404.9888 -17.69958,0"
@@ -255,9 +272,9 @@
        id="text5397"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan5399"
          x="649.23547"
-         y="562.44696">Glasträger</tspan></text>
+         y="562.44696"
+         id="tspan3029" /></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.65875226px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
        d="m 491.94918,566.29111 17.48375,15.1094"
@@ -310,5 +327,44 @@
          id="tspan5514"
          x="596.5506"
          y="408.29935">Ventil mit Suspension</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3033"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       transform="translate(389.9321,381.26838)"><flowRegion
+         id="flowRegion3035"><rect
+           id="rect3037"
+           width="116.67262"
+           height="30.809647"
+           x="207.58635"
+           y="164.61868" /></flowRegion><flowPara
+         id="flowPara3039"
+         style="font-size:12px">Hauptkammer mit </flowPara><flowPara
+         id="flowPara3041"
+         style="font-size:12px">Glasträger</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="647.14215"
+       y="382.74741"
+       id="text3043"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3045"
+         x="647.14215"
+         y="382.74741"
+         style="font-size:12px">Sprühbeschichter</tspan></text>
+    <rect
+       style="fill:none;stroke:#a2a2a2;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.5, 3;stroke-dashoffset:0"
+       id="rect3047"
+       width="60.861691"
+       height="74.498749"
+       x="131.31982"
+       y="11.580565"
+       transform="translate(400.5387,378.23792)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.65875226px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 609.52165,383.95761 -15.61555,8.33245"
+       id="path3041-5-5"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
