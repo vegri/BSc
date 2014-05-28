@@ -34,6 +34,8 @@
 \usepackage{float}
 \usepackage[labelfont=bf, format=plain]{caption}
 \usepackage{cite}
+\usepackage[decimalsymbol=comma]{siunitx}
+\usepackage{setspace}
 
 \usepackage[percent]{overpic}
 
@@ -91,7 +93,9 @@
 \begin{titlepage}
   \vspace*{6mm}
   \begin{center}
-     {\afont Rastertunnelmikroskopie an adsorbierten organischen Molekülen}
+     { \doublespacing \afont 
+     Untersuchung des Wachstums von Au auf Re(111) mittels LEED und STM
+     sowie Aufbau und Test einer Sprühdepositionsapparatur}
      \\[3.5cm]
      {\large von}
      \\[3.5cm]
@@ -104,7 +108,7 @@
    \end{center}
    \vfill
    1. Gutachter: Prof. Dr. Hans-Joachim Elmers\\
-   2. Gutachter: Prof. Dr. ?????????????????? \\
+   2. Gutachter: Dr. Martin Jourdan\\
    \vfill
 \end{titlepage}
 
@@ -154,7 +158,7 @@ D-55128 Mainz\\
  \import{theorie/}{LEED.tex}
 
 
- \chapter{Versuchsaufbau} \label{kapaufbau}
+ \chapter{Versuchsaufbau} 
  \import{versuchsaufbau/}{starting_versuchsaufbau}
  
 \chapter{Aufbringen dünner Au-Schichten auf einem Re-Kristall}
