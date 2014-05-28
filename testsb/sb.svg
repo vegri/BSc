@@ -10,11 +10,11 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="474.99219"
+   width="476.82617"
    height="328.13168"
    id="svg3309"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="sb.svg">
   <defs
      id="defs3311">
@@ -153,7 +153,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="205.61561"
+     inkscape:cx="143.23869"
      inkscape:cy="178.94092"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -162,8 +162,8 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1916"
-     inkscape:window-height="1106"
+     inkscape:window-width="1920"
+     inkscape:window-height="1098"
      inkscape:window-x="0"
      inkscape:window-y="31"
      inkscape:window-maximized="1"
@@ -187,14 +187,14 @@
      id="layer1"
      transform="translate(-400.5387,-372.95302)">
     <image
-       sodipodi:absref="/fs01/ma10/homes/kunzejo/workspace/BSc/testsb/../fotos/IMG_1106.jpg"
+       sodipodi:absref="/home/kunzejo/workspace/BSc/testsb/../fotos/IMG_1106.jpg"
        xlink:href="../fotos/IMG_1106.jpg"
-       transform="matrix(0.99942881,-0.03379439,0.03379439,0.99942881,0,0)"
-       y="395.78439"
-       x="420.69943"
-       id="image3034"
+       width="178.24501"
        height="319.67709"
-       width="178.24501" />
+       id="image3034"
+       x="420.69943"
+       y="395.78439"
+       transform="matrix(0.99942881,-0.03379439,0.03379439,0.99942881,0,0)" />
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
@@ -316,7 +316,7 @@
          sodipodi:role="line"
          id="tspan5514"
          x="600.5506"
-         y="408.29935">Ventil mit Suspension</tspan></text>
+         y="408.29935">Ventil mit Lösung</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot3033"
@@ -358,13 +358,13 @@
        sodipodi:linespacing="100%"
        id="text3936"
        y="458.53778"
-       x="822.79651"
+       x="851.53088"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
          y="458.53778"
-         x="822.79651"
-         id="tspan3938"
-         sodipodi:role="line">Sprühbeschichter</tspan></text>
+         x="851.53088"
+         sodipodi:role="line"
+         id="tspan3038" /></text>
     <text
        sodipodi:linespacing="100%"
        id="text3940"
@@ -376,5 +376,17 @@
          x="812.74182"
          id="tspan3942"
          sodipodi:role="line">Hauptkammer</tspan></text>
-  </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3042"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       transform="translate(406.03479,372.95302)"><flowRegion
+         id="flowRegion3044"><rect
+           id="rect3046"
+           width="111.62185"
+           height="49.497475"
+           x="364.16"
+           y="64.481873" /></flowRegion><flowPara
+         id="flowPara3048">Spraydepositions-</flowPara><flowPara
+         id="flowPara3050">apparatur</flowPara></flowRoot>  </g>
 </svg>
