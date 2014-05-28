@@ -15,7 +15,7 @@
    id="svg3164"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="New document 2">
+   sodipodi:docname="stm-tisch.svg">
   <defs
      id="defs3166">
     <filter
@@ -193,8 +193,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="253.82872"
-     inkscape:cy="88.512211"
+     inkscape:cx="254.83887"
+     inkscape:cy="48.106109"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -202,10 +202,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1098"
+     inkscape:window-width="1680"
+     inkscape:window-height="1001"
      inkscape:window-x="0"
-     inkscape:window-y="31"
+     inkscape:window-y="25"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata3169">
@@ -215,7 +215,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -225,21 +225,21 @@
      id="layer1"
      transform="translate(-140.29784,-442.96381)">
     <image
-       y="442.97046"
-       x="140.29784"
-       id="image3034"
-       height="178.78345"
+       sodipodi:absref="/home/verena/Desktop/workspace/BSc/versuchsaufbau/../fotos/kamera2.jpg"
+       xlink:href="../fotos/kamera2.jpg"
        width="223.47929"
-       xlink:href="/home/kunzejo/workspace/BSc/versuchsaufbau/../fotos/kamera2.jpg"
-       sodipodi:absref="/home/kunzejo/workspace/BSc/versuchsaufbau/../fotos/kamera2.jpg" />
+       height="178.78345"
+       id="image3034"
+       x="140.29784"
+       y="442.97046" />
     <image
-       width="233.30476"
-       height="178.79677"
-       id="image3056"
-       x="376.3974"
+       sodipodi:absref="/home/verena/Desktop/workspace/BSc/versuchsaufbau/../fotos/IMG_1063.jpg"
+       xlink:href="../fotos/IMG_1063.jpg"
        y="442.96381"
-       xlink:href="/home/kunzejo/workspace/BSc/versuchsaufbau/../fotos/IMG_1063.jpg"
-       sodipodi:absref="/home/kunzejo/workspace/BSc/versuchsaufbau/../fotos/IMG_1063.jpg" />
+       x="376.3974"
+       id="image3056"
+       height="178.79677"
+       width="233.30476" />
     <g
        transform="matrix(1.3227917,0,0,1.3227917,103.97614,358.57682)"
        style="fill:#ffcc00;stroke:#ffa90e;stroke-opacity:1"
