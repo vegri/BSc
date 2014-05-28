@@ -79,7 +79,6 @@
 %_______________________________________________________________________________
 \hyphenation{Ba-che-lor-ar-beit}
 
-
 \pagestyle{empty}
 \pagestyle{headings}
 %for changing the style on a specific page use \thispagestyle{e.g., empty}
@@ -93,12 +92,14 @@
 \begin{titlepage}
   \vspace*{6mm}
   \begin{center}
-     { \linespread{8.6} \afont 
+  \linespread{1.3}
+     {\sffamily \bfseries \Huge  %\afont
      Untersuchung des Wachstums von Au auf Re(111) mittels LEED und STM
-     sowie Aufbau und Test einer Sprühdepositionsapparatur}
-     \\[3.5cm]
+     sowie Aufbau und Test einer Sprühdepositionsapparatur\par}
+     \vspace*{3.5cm}
      {\large von}
      \\[3.5cm]
+     \linespread{1}
      {\dfont Verena Grimm}
      \\[2cm]
      {\large Bachelorarbeit in Physik \/\\
@@ -111,6 +112,8 @@
    2. Gutachter: Dr. Martin Jourdan\\
    \vfill
 \end{titlepage}
+
+
 
 \thispagestyle{empty}
 Ich versichere, dass ich die Arbeit selbstst\"andig verfasst und keine
@@ -161,7 +164,7 @@ D-55128 Mainz\\
  \chapter{Versuchsaufbau} 
  \import{versuchsaufbau/}{starting_versuchsaufbau}
  
-\chapter{Aufbringen dünner Au-Schichten auf einem Re-Kristall}
+\chapter{Wachstum dünner Au-Schichten auf Re(111)}
 \import{goldaufre/}{goldaufre}
  
 \chapter{Test der Apparatur zur Sprühbeschichtung} \label{kaptest}
