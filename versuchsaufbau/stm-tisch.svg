@@ -25,22 +25,24 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1680"
-     inkscape:window-height="1001"
+     inkscape:window-width="1920"
+     inkscape:window-height="1138"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="2.1580324"
-     inkscape:cx="221.0868"
-     inkscape:cy="108.09085"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:zoom="3.0519187"
+     inkscape:cx="197.76955"
+     inkscape:cy="56.313196"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
      units="cm"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     showguides="true"
+     inkscape:guide-bbox="true" />
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -348,23 +350,60 @@
          transform="matrix(-0.4,0,0,-0.4,-4,0)"
          inkscape:connector-curvature="0" />
     </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend7Qi"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend7Qi-1"
+       style="overflow:visible">
+      <path
+         id="path5477-74"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5446-5-0">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.2256498"
+         id="feGaussianBlur5448-3-9" />
+    </filter>
+    <marker
+       inkscape:stockid="Arrow1Mend7QI"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend7QI-4"
+       style="overflow:visible">
+      <path
+         id="path5548-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#ffffff;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
   </defs>
   <image
-     sodipodi:absref="/home/verena/Desktop/workspace/BSc/versuchsaufbau/../fotos/kamera2.jpg"
+     sodipodi:absref="C:\Users\kunzej\Documents\GitHub\BSc\versuchsaufbau\../fotos/kamera2.jpg"
      xlink:href="../fotos/kamera2.jpg"
-     y="0.0066604614"
-     x="0"
-     id="image3034"
+     width="223.47929"
      height="178.78345"
-     width="223.47929" />
+     id="image3034"
+     x="0"
+     y="0.0066604614" />
   <image
-     sodipodi:absref="/home/verena/Desktop/workspace/BSc/versuchsaufbau/../fotos/IMG_1063.jpg"
+     sodipodi:absref="C:\Users\kunzej\Documents\GitHub\BSc\versuchsaufbau\../fotos/IMG_1063.jpg"
      xlink:href="../fotos/IMG_1063.jpg"
-     width="233.30476"
-     height="178.79677"
-     id="image3056"
+     y="0"
      x="236.09956"
-     y="0" />
+     id="image3056"
+     height="178.79677"
+     width="233.30476" />
   <g
      transform="matrix(1.3227917,0,0,1.3227917,-36.321698,-84.386978)"
      style="fill:#ffcc00;stroke:#ffa90e;stroke-opacity:1"
@@ -438,7 +477,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:9.07172308px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        x="163.2744"
        y="134.28453"
        id="text5406-6"
@@ -447,6 +486,68 @@
          id="tspan5408-5"
          x="163.2744"
          y="134.28453"
-         style="fill:#ffffff;fill-opacity:1;stroke:none">Spitze</tspan></text>
+         style="fill:#ffffff;fill-opacity:1;stroke:none;-inkscape-font-specification:Sans;font-family:Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:9.07172308px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">Spitze</tspan></text>
+  </g>
+  <g
+     transform="matrix(1.3227917,0,0,1.3227917,-181.08992,-27.382551)"
+     style="fill:#ffcc00;stroke:#ffa90e;stroke-opacity:1"
+     id="g5351-9-8">
+    <g
+       id="g5640-2"
+       transform="matrix(-0.87193906,0.48961442,0.48961442,0.87193906,359.84135,-66.467788)">
+      <path
+         style="fill:#ffcc00;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend7Qi);filter:url(#filter5446-5-0)"
+         d="M 175.13978,120.33926 201.7488,105.39767"
+         id="path3062-7-0-1-4"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend7QI)"
+         d="m 174.97535,119.75568 26.60902,-14.94159"
+         id="path3062-7-8-5"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="148.21114"
+       y="136.38638"
+       id="text5406-6-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="148.21114"
+         y="136.38638"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="tspan3093" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3097"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(0.75597692,0,0,0.75597692,136.8998,20.700577)"><flowRegion
+         id="flowRegion3099"><rect
+           id="rect3101"
+           width="97.542557"
+           height="43.78989"
+           x="14.59663"
+           y="135.70195" /></flowRegion><flowPara
+         id="flowPara3103">Röhren-scanner</flowPara><flowPara
+         id="flowPara3105" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:30.23907661px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="285.85208"
+       y="117.82678"
+       id="text3107"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="285.85208"
+         y="117.82678"
+         id="tspan3111"
+         style="font-size:9.07172298px;text-align:center;text-anchor:middle;fill:#ffffff">Röhren-</tspan><tspan
+         sodipodi:role="line"
+         x="285.85208"
+         y="129.16644"
+         id="tspan3115"
+         style="font-size:9.07172298px;text-align:center;text-anchor:middle;fill:#ffffff">scanner</tspan></text>
   </g>
 </svg>
