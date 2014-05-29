@@ -1,4 +1,5 @@
 \FloatBarrier
+\section{Untersuchung der Re(0001)-Oberfläche durch LEED}
 
 Um die Oberflächengüte des Rheniumkristalls zu analysieren, wurde die Oberfläche zunächst mit LEED
 untersucht. Zuvor wurde die Probe bei einer Hochspannung von \SI{700}{V} und einem Strom
@@ -101,10 +102,11 @@ genähert wurde, indem jeweils der größtmöglichste und kleinstmöglichste Win
 gemessen wurde. Die Ergebnisse sind in Tabelle \ref{tab} zu sehen. Die Winkel $\alpha$ und $\gamma$
 sollten in einem hexagonalen Gitter $120\degree$, die Winkel $\beta$ und $\delta$ dagegen
 $60\degree$ aufweisen wie in Abb. \ref{winkel}b). Stattdessen liegen $\alpha$ und $\gamma$ bei etwa
-$109\degree$ und $\beta$ und $\delta$ bei etwa $72\degree$, was viel eher einem bcc-Gitter mit den
-entsprechenden Winkeln $\alpha=109{,}5\degree$ und $\beta=70{,}5\degree$.
+$109\degree$ und $\beta$ und $\delta$ bei etwa $72\degree$, was viel eher zu einem bcc-Gitter mit
+den entsprechenden Winkeln $\alpha=109{,}5\degree$ und $\beta=70{,}5\degree$ passt (siehe
+Abb. \ref{winkel}c)).
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \begin{minipage}[b]{0.4\textwidth}
 \includesvg[svgpath=goldaufre/]{unbedampft_E207-winkel}
 \end{minipage}
@@ -112,14 +114,14 @@ entsprechenden Winkeln $\alpha=109{,}5\degree$ und $\beta=70{,}5\degree$.
 \begin{minipage}[b]{0.6\textwidth}
 \includesvg[svgpath=goldaufre/]{bcc-hcp}
 \end{minipage}
-\caption{a) Im LEED-Bild der Re-Oberfläche im äußeren Bereich eingezeichnete größt- und
+\caption{\textit{a) Im LEED-Bild der Re-Oberfläche im äußeren Bereich eingezeichnete größt- und
 kleinstmögliche Winkel. b) Die (0001)-Oberfläche der hcp-Struktur, ein regelmäßiges Hexagon mit den
 Winkeln $\alpha=120\degree$ und $\beta=60\degree$. c) Die (110)-Oberfläche der bcc-Struktur, ein
-gestrecktes Hexagon mit den Winkeln $\alpha=109{,}5\degree$ und $\beta=70{,}5\degree$.}
+gestrecktes Hexagon mit den Winkeln $\alpha=109{,}5\degree$ und $\beta=70{,}5\degree$.}}
 \label{winkel} 
 \end{figure}
 
-\begin{figure}
+\begin{table}[H]
 \centering
 \begin{tabular}{ c  r  r  r}
 Winkel &	min	 &	max & Mittel \\
@@ -129,10 +131,23 @@ Winkel &	min	 &	max & Mittel \\
  $\gamma$ & 106,7\degree &	112,9\degree  &  109,8\degree\\
  $\delta$ & 67,2\degree &	73,1\degree  &  70,2\degree\\
 \end{tabular}
-\caption*{\textbf{Tabelle \thechapter.1:} \textit{Die aus Abb. \ref{winkel} eingezeichneten und
+\caption{\textit{Die aus Abb. \ref{winkel} eingezeichneten und
 gemessenen Winkel sowie ihre Mittelwerte.}}
 \label{tab}
-\end{figure}
+\end{table}
+
+Um auszuschließen, dass es sich nicht doch um einen Kristall mit bcc-Struktur handelt, wurde eine
+Augespektroskopie durchgeführt (siehe \cite{Lueth}). Dem Ergebnis nach handelt es sich jedoch um
+einen Rheniumkristall. Eine mögliche Erklärung für die leicht asymmetrische Struktur des
+Oberflächengitters ist, dass auf den Kristall ausgeübte Spannungen die Struktur des Einkristalls
+leicht verändert haben könnten; eine weitere Möglichkeit wäre, dass sich die Struktur durch
+übermäßiges Erhitzen verändert hat. Da die Oberfläche trotz der Abweichung in den Winkeln eine
+ausreichende Periodizität und nur eine geringe Oberflächenrauhigkeit aufweist - zu sehen an dem klar
+definierten Spots mit wenig Hintergrundleuten - ist die Probe trotzdem geeignet, um als Substrat für
+Gold zu dienen und dessen Wachstum zu untersuchen.
+
+
+\section{Untersuchung verschieden dicker Schichten von Au auf Re(0001) durch LEED}
 
 Das Wachstum von Gold auf der Rheniumoberfläche wurde zuerst durch LEED für
 verschiedene Bedeckungsgrade des Kristalls untersucht. Dazu wurden eine halbe, eine, sechs, zehn und
@@ -164,7 +179,9 @@ Da höhere Anzahlen von Monolagen periodische Gitterstrukturen ausbilden und ein
 Oberflächengüte aufweisen, sind diese als Substrat für organische Moleküle besonders interessant.
 Deren Anordnung und Struktur auf der Goldoberfläche lassen sich am besten auf großen, ebenen Flächen
 untersuchen.
-\\
+
+\section{Untersuchung verschieden dicker Schichten von Au auf Re(0001) durch STM}
+
 Als nächstes wurden der unbedampfte Rheniumkristall sowie unterschiedliche Mengen Gold auf dessen
 Oberfläche mittels STM untersucht. Dabei wurde der Konstantstrommodus mit einer Spannung von
 \SI{0,6}{V} und einem Tunnelstrom von \SI{0,6}{nA} verwendet. In Abb. \ref{rekristallstm} sind zwei
