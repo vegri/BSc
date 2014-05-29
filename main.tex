@@ -2,16 +2,38 @@
 %class
 %_______________________________________________________________________________
 %\documentclass[a4paper,11pt,onecolumn,final,german,openbib]{scrbook}
-\documentclass[a4paper,11pt,oneside,final,german,openbib,pdftex]{scrbook}
+\documentclass[pdftex,a4paper,german,openbib,final,11pt,twoside,chapterprefix,
+headsepline]{scrbook}
+
+\renewcommand*{\chapterheadstartvskip}{\vspace*{-1cm}}
+
+% \documentclass[%
+% 	pdftex,%              PDFTex verwenden
+% 	a4paper,%             A4 Papier
+% 	twoside,%             Doppelseitig
+% 	german,
+% 	openbib,
+% 	final,
+% 	%bibtotoc,%    		Literaturverzeichnis einf�gen bibtotocnumbered: nummeriert
+% 	%liststotoc,%		Verzeichnisse einbinden in toc
+% 	%idxtotoc,%            Index ins Verzeichnis einf�gen
+% 	%halfparskip,%        Europ�ischer Satz mit abstand zwischen Abs�tzen
+% 	%chapterprefix,%       Kapitel anschreiben als Kapitel
+% 	headsepline,%         Linie nach Kopfzeile
+% 	%footsepline,%         Linie vor Fusszeile
+% 	%pointlessnumbers,%     Nummern ohne abschlie�enden Punkt
+% 	11pt%                 Gr�ssere Schrift, besser lesbar am bildschrim
+% ]{scrbook}
+
 %_______________________________________________________________________________
 % page borders
 %_______________________________________________________________________________
-\addtolength{\headheight}{2cm}
-%\addtolength{\topmargin}{2cm}
-\setlength{\oddsidemargin}{1.0cm}
-\setlength{\evensidemargin}{0.5cm}
+%\addtolength{\headheight}{2cm}
+% %\addtolength{\topmargin}{2cm}
+% \setlength{\oddsidemargin}{1.0cm}
+% \setlength{\evensidemargin}{0.5cm}
 \setlength{\textwidth}{14.3cm}
-\setlength{\parindent}{0mm}
+% \setlength{\parindent}{0mm}
 
 % Default folder for graphics
  
@@ -38,6 +60,47 @@
 \usepackage{setspace}
 
 \usepackage[percent]{overpic}
+
+
+\usepackage[%
+	pdftitle={Titel},% Titel der Diplomarbeit
+	pdfauthor={Autor},% Autor(en)
+	pdfcreator={LaTeX, LaTeX with hyperref and KOMA-Script},% Genutzte Programme
+	pdfsubject={Betreff}, % Betreff
+	pdfkeywords={Keywords}]{hyperref} % Keywords halt :-)
+\hypersetup{colorlinks=true,% Definition der Links im PDF File
+	linkcolor=LinkColor,%
+	citecolor=LinkColor,%
+	filecolor=LinkColor,%
+	menucolor=LinkColor,%
+	pagecolor=LinkColor,%
+	urlcolor=LinkColor}
+	
+\hypersetup{
+ pdfauthor={Verena Grimm},
+ pdftitle={Untersuchung des Wachstums von Au auf Re(111) mittels LEED und STM
+     sowie Aufbau und Test einer Sprühdepositionsapparatur},
+ pdfsubject={Bachlorarbeit Physik, Johannes-Gutenberg-Universität Mainz},
+ pdfkeywords={Rhenium,Gold,STM,LEED,Spraydeposition},
+ backref=true,
+ pagebackref=true,
+ hyperfigures,
+ hyperindex,
+ bookmarksopen,
+ bookmarksopenlevel=1,
+ bookmarksnumbered,
+ pageanchor,
+ plainpages=false,
+ % Hyperlink Farben:
+ urlcolor=black,
+ pagecolor=black,
+ menucolor=black,
+ citecolor=black,
+ anchorcolor=black,
+ filecolor=black,
+ linkcolor=black,
+ colorlinks=true, % Links einfaerben oder umranden
+}
 
 
 %_______________________________________________________________________________
@@ -107,10 +170,15 @@
         der Johannes Gutenberg-Universit\"at Mainz \/\\
         am 03. Juni 2014}
    \end{center}
-   \vfill
-   1. Gutachter: Prof. Dr. Hans-Joachim Elmers\\
-   2. Gutachter: Dr. Martin Jourdan\\
-   \vfill
+   \newpage
+	\null
+	\vfill
+	\begin{tabular}{ll}
+	Betreuer: & Dr. Torsten Methfessel \\
+	1. Gutachter: & Prof. Dr. Hans-Joachim Elmers\\
+   	2. Gutachter: & Dr. Martin Jourdan
+	\end{tabular}
+   
 \end{titlepage}
 
 
