@@ -80,8 +80,8 @@ verteilen Spots der Überstruktur ab.
 		\caption{\textit{30 Monolagen Au}}
 		\label{30ML} 
 	\end{minipage}
-	\caption*{\textbf{Abb. 3.2-3.7:} \textit{LEED-Aufnahmen vom Re-Kristall ohne und mit
-	verschiedenen Bedeckungsgraden von Gold bei einer Elektronenenergie von \SI{208}{eV}. In
+	\caption*{\textbf{Abb. \thechapter.2-\thechapter.7:} \textit{LEED-Aufnahmen vom Re-Kristall ohne
+	und mit verschiedenen Bedeckungsgraden von Gold bei einer Elektronenenergie von \SI{208}{eV}. In
 	der Mitte ist die Elektronenkanone zu erkennen (weiß).}}
 \end{figure}
 
@@ -93,6 +93,47 @@ Kohlenmonoxid reagieren, welches durch Flashen von der Oberfläche entfernt werd
 resultierte hier jedoch in keiner wesentlichen Verbesserung, sodass bei den folgenden LEED- sowie
 STM-Messungen nur die äußeren Bereiche des Kristalls berücksichtigt wurden.
 \\
+Betrachtet man sich die hexagonale Struktur der äußeren Bereich näher, fällt eine leichte Asymmetrie
+auf: Das Sechseck wirkt in die Länge gezogen. Solch eine Struktur würde man zum Beispiel bei
+der (110)-Ebene eines bcc-Gitters erwarten. In Abb. \ref{winkel}a) wurden die Punkte verbunden und
+die Winkel gemessen. Durch die Ausdehnung der Punkte erhält man eine Unsicherheit im Winkel, die
+genähert wurde, indem jeweils der größtmöglichste und kleinstmöglichste Winkel eingezeichnet und
+gemessen wurde. Die Ergebnisse sind in Tabelle \ref{tab} zu sehen. Die Winkel $\alpha$ und $\gamma$
+sollten in einem hexagonalen Gitter $120\degree$, die Winkel $\beta$ und $\delta$ dagegen
+$60\degree$ aufweisen wie in Abb. \ref{winkel}b). Stattdessen liegen $\alpha$ und $\gamma$ bei etwa
+$109\degree$ und $\beta$ und $\delta$ bei etwa $72\degree$, was viel eher einem bcc-Gitter mit den
+entsprechenden Winkeln $\alpha=109{,}5\degree$ und $\beta=70{,}5\degree$.
+
+\begin{figure}[htbp]
+\begin{minipage}[b]{0.4\textwidth}
+\includesvg[svgpath=goldaufre/]{unbedampft_E207-winkel}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.6\textwidth}
+\includesvg[svgpath=goldaufre/]{bcc-hcp}
+\end{minipage}
+\caption{a) Im LEED-Bild der Re-Oberfläche im äußeren Bereich eingezeichnete größt- und
+kleinstmögliche Winkel. b) Die (0001)-Oberfläche der hcp-Struktur, ein regelmäßiges Hexagon mit den
+Winkeln $\alpha=120\degree$ und $\beta=60\degree$. c) Die (110)-Oberfläche der bcc-Struktur, ein
+gestrecktes Hexagon mit den Winkeln $\alpha=109{,}5\degree$ und $\beta=70{,}5\degree$.}
+\label{winkel} 
+\end{figure}
+
+\begin{figure}
+\centering
+\begin{tabular}{ c  r  r  r}
+Winkel &	min	 &	max & Mittel \\
+ \hline                       
+ $\alpha$ & 105,8\degree &	111,4\degree  &  108,6\degree\\
+ $\beta$ & 71,5\degree &	74,4\degree  &  73,0\degree\\
+ $\gamma$ & 106,7\degree &	112,9\degree  &  109,8\degree\\
+ $\delta$ & 67,2\degree &	73,1\degree  &  70,2\degree\\
+\end{tabular}
+\caption*{\textbf{Tabelle \thechapter.1:} \textit{Die aus Abb. \ref{winkel} eingezeichneten und
+gemessenen Winkel sowie ihre Mittelwerte.}}
+\label{tab}
+\end{figure}
+
 Das Wachstum von Gold auf der Rheniumoberfläche wurde zuerst durch LEED für
 verschiedene Bedeckungsgrade des Kristalls untersucht. Dazu wurden eine halbe, eine, sechs, zehn und
 30 Monolagen auf den Kristall aufgedampft und die Beugungsmuster miteinander verglichen. Die
