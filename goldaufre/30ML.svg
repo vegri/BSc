@@ -44,9 +44,9 @@
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="190.70032"
-     inkscape:cy="73.129222"
+     inkscape:zoom="11.313708"
+     inkscape:cx="176.54182"
+     inkscape:cy="8.4703826"
      inkscape:window-x="0"
      inkscape:window-y="31"
      inkscape:window-maximized="1"
@@ -85,11 +85,11 @@
   <image
      sodipodi:absref="/home/kunzejo/workspace/BSc/goldaufre/pics/30ML.jpg"
      xlink:href="pics/30ML.jpg"
-     y="15.578121"
-     x="0.0078075002"
-     id="image4069"
+     width="185.38281"
      height="185.38281"
-     width="185.38281" />
+     id="image4069"
+     x="0.0078075002"
+     y="15.578121" />
   <g
      id="g3054">
     <g
@@ -113,7 +113,7 @@
          y="187.7249"
          x="123.60001"
          id="tspan4100-2"
-         sodipodi:role="line">20 nm</tspan></text>
+         sodipodi:role="line">40 nm</tspan></text>
   </g>
   <text
      sodipodi:linespacing="125%"
@@ -195,11 +195,11 @@
   <image
      sodipodi:absref="/home/kunzejo/workspace/BSc/goldaufre/pics/skala.jpg"
      xlink:href="pics/skala.jpg"
-     y="17.475323"
-     x="192.75223"
-     id="image2995"
+     width="8.0258694"
      height="182.04131"
-     width="8.0258694" />
+     id="image2995"
+     x="192.75223"
+     y="17.475323" />
   <rect
      style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="rect3044"
@@ -260,7 +260,7 @@
          y="172.41225"
          x="122.11985"
          id="tspan4100"
-         sodipodi:role="line">20 nm</tspan></text>
+         sodipodi:role="line">40 nm</tspan></text>
   </g>
   <g
      id="g3050"
