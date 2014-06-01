@@ -31,10 +31,7 @@ In der STM-Kammer kann die Probe
 mittels Rastertunnelmikroskopie- und spektroskopie untersucht werden. In der Haupkammer kann die
 Probe durch einen unten in der Kammer eingebauten Metallverdampfer mit
 verschiedenen Metallen (zur Zeit Gold, Eisen, Kobalt) bedampft, durch Erhitzen von Ablagerungen auf
-der Oberfläche gereinigt ("`geflasht"') sowie die Probenoberfläche durch LEED untersucht werden. 
-% Die hier verwendete LEED-Apparatur ist ein "`Spectaleed"'  von Omicron. 
-%Weiterhin sind hier Augerspektroskopie und Kerr-Messung möglich, die jedoch hier nicht zum Einsatz
-%kamen.
+der Oberfläche gereinigt ("`geflasht"') sowie die Probenoberfläche mit LEED untersucht werden. 
 \\
 Das verwendete Substrat kann im Probenhalter mittels des
 Transferstabs durch die Kammern transportiert werden. In die Molekülkammer kann es mit einem
@@ -44,11 +41,11 @@ den STM-Tisch versetzt werden kann. In der Hauptkammer schlussendlich wird der P
 sogenannten Manipulator gesetzt, mit dem die Probe in alle Raumrichtungen verschoben sowie gedreht
 werden kann. 
 \\
-Am Manipulator ist ein Heizfilament angebracht, über den der Kristall geflasht wird:
+Am Manipulator ist ein Heizfilament angebracht, über den der Kristall geflasht wird.
 Dabei wird das Filament zum Glühen gebracht, die durch Glühemission emittierten Elektronen werden
-durch eine an die Probe angelegte Hochspannung zum Kristall hin beschleunigt und heizen diesen dann
-durch Stöße bis auf Temperaturen über \SI{1000}{K} auf. In diesem Prozess werden aufgedampfte
-Schichten, aber auch Ablagerungen entfernt. Selbst bei einem Druck von \SI{e-10}{mbar} lagern sich
+durch eine an die Probe angelegte Hochspannung von \SI{700}{V} zum Kristall hin beschleunigt und
+heizen diesen dann durch Stöße auf eine Temperatur von etwa \SI{2000}{K} auf. In diesem Prozess
+werden aufgedampfte Schichten, aber auch Ablagerungen entfernt. Selbst bei einem Druck von \SI{e-10}{mbar} lagern sich
 Restgasmoluküle auf Oberflächen ab; nach einem Tag entspricht dies in etwa einer Monolage.
 \\
 Weiterhin kann das Filament dazu benutzt werden, ohne angelegte Hochspannung die Probe einfach nur
@@ -59,18 +56,17 @@ bestimmen.
  Über dem Metallverdampfer in der Hauptkammer befindet sich eine
 Blende, sodass die darüber befindliche Probe durch Auf- oder Zuklappen je nach Bedarf bei
 laufendem Verdampfer bedampft werden kann. Die Menge des verdampften Metalls wird über einen
-Schwingquarz gemessen, der sich über dem Verdampfer befindet und somit mitbedampft wird; anhand der
+Schwingquarz gemessen, der sich über dem Verdampfer befindet und somit mitbedampft wird. Anhand der
 Änderung der Schwingfrequenz können Rückschlüsse auf die abgelagerte Masse auf dem Quarz gezogen
 werden, worüber dann die Anzahl der aufgedampften Lagen auf der Probe bestimmt werden kann
 \cite{Sau}.
-Nach Kalibration wird hierfür die digital angezeigte Periodendauer genutzt, dabei entsprechen für
-Gold z.B. 250 Skaltenteile etwa einer Monolage Gold auf der Probe.
+Die Zunahme der Periodendauer (gemessen in "`Skalenteilen"', SKT) wird durch eine Bestimmung der
+deponierten Menge auf dem Substrat mittels STM-Aufnahmen kalibriert. Nach einer solchen Kalibration
+entsprechen 250 SKT etwa einer Monolage Gold auf dem Substrat.
 \\
 Der Druck in der Hauptkammer wird über eine Bayard-Alpart-Röhre gemessen, die sich unten in der
-Kammer befindet. Zudem befindet sich ein Kaltkathodenvakuummeter %\ldots 
-an der Molekülkammer.
-Zur Restgasanalyse und Lecksuche dient ein Quadrupolmassenspektrometer.% (Pfeiffer Vacuum PrismaPlus
-% QMG220).
+Kammer befindet. Zudem befindet sich ein Kaltkathodenvakuummeter an der Molekülkammer.
+Zur Restgasanalyse und Lecksuche dient ein Quadrupolmassenspektrometer.
 
 
 \section{Das Rastertunnelmikroskop}
@@ -82,14 +78,12 @@ Röhren\-scanner als auch der Probentisch werden über Piezoelemente bewegt, mit
 wie auch Tisch in x-y-Richtung bewegt werden können, der Scanner zum Rastern der Oberfläche und der
 Tisch zum Ausrichten der zu messenden Stelle der Probe; weiterhin kann der Scanner in z-Richtung an
 die Probe angenähert werden.
-
-% der Scanner in z-Richtung an die Probe angenähert sowie
-% zum Rastern der Oberfläche in x-y-Richtung bewegt und der Probentisch in x-y-Richtung
-% ausgerichtet werden kann.
-Die Steuerung erfolgt über eine Fernbedienung. Die Spitze des STMs wird dabei so nah wie möglich an
-die Probe herangefahren, was über die Spiegelung der Spitze in der Probe, gefilmt über eine schräg
-unterhalb des Probentisches angebrachte USB-Kamera, abgeschätzt werden kann. Die Feinanpassung wird
-über die zugehörige Software erledigt.
+\\
+Die Positionierung des Probentisches sowie die  Grobannäherung der Spitze erfolgen über eine
+Fernbedienung. Die Spitze des STMs wird dabei so nah wie möglich an die Probe herangefahren, was
+über die Spiegelung der Spitze in der Probe, gefilmt über eine schräg unterhalb des Probentisches
+angebrachte USB-Kamera, abgeschätzt werden kann. Die Feinanpassung wird über die zugehörige
+Software erledigt.
 Dabei wird die Spitze in kleinen Schritten soweit angenähert, bis ein Tunnelstrom gemessen werden
 kann. Anschließen wird die Probe wiederum manuell noch zwei bis drei Schritte weiter an die Probe
 herangefahren, um den Tunnelstrom zu stabilisieren.
@@ -118,11 +112,12 @@ Helligkeitskontraste dargestellt wird. Hierbei können auch unregelmäßige Ober
 werden. Zu bemerken ist, dass sich das dargestellte Höhenprofil zusammesetzt aus Topographie der
 Oberfläche sowie konstanter elektronischer Zustandsdichte der Oberfläche.
 
-
-\section{Aufbau der Spraydepositionsapparatur}
 \FloatBarrier
 
-Der Aufbau zur Spraydeposition funktioniert im wesentlichen über ein Druckgefälle innerhalb seines
+\section{Aufbau der Spraydepositionsapparatur}
+
+
+ Die Spraydeposition funktioniert im Prinzip über ein Druckgefälle innerhalb ihres
 Aufbaus, durch das sich die in einer Lösung befindlichen Moleküle durch Expansion durch die
 Apparatur bewegen und auf dem Substrat im besten Falle haften bleiben. 
 \\
@@ -143,9 +138,6 @@ Ventil 2 kann auch bei geschlossenem Ventil 1 das erste Verbindungsstück mitgep
 Ein Schema des Aufbaus ist in Abb. \ref{sbaufbau} zu sehen. Ganz oben befindet sich ein elektrisch
 gesteuertes Nadelventil, in dessen Reservoir sich die Lösung befindet. Dieses Ventil wird über eine
 Steuerungseinheit mit verschiedenen einstellbaren Öffnungsmodi bedient (siehe Abschnitt \ref{kaptest}). 
-% Ist es
-% geöffnet, wird die Lösung durch die \SI{0,3}{mm} große Öffnung in den darunterliegenden,
-% vakuumierten Würfel gesogen. 
 Im Ventil befindet sich eine \SI{0,3}{mm} große, runde Öffnung, welches die Verbindung zwischen
 Lösung und Vakuum darstellt. Durch ein System von Federn wird eine Nadel in dieses Loch gedrückt, um
 es geschlossen zu halten.
@@ -173,21 +165,13 @@ unterhalb des Würfels über Schlauch und T-Stück mitgepumpt werden kann und ni
 des Konus.
 \\
 Das zweite Verbindungsstück ist eine Überbrückung zwischen Ventil 1 und Adapterflansch, mit dem
-der \SI{40}{mm}-Anschluss von Ventil 1 %bzw. des zweiten Verbindungsstückes 
-auf den \SI{63}{mm}-Flansch der Molekülkammer gesetzt werden kann. Eine direkt Verbindung zwischen
-diesem Ventil und dem Adapter ist nicht möglich, da beide ein Sacklochgewinde besitzen.\\
+der \SI{40}{mm}-Anschluss von Ventil 1 auf den \SI{63}{mm}-Flansch der Molekülkammer gesetzt werden
+kann. Eine direkt Verbindung zwischen diesem Ventil und dem Adapter ist nicht möglich, da beide ein
+Sacklochgewinde besitzen.
+\\
 Unten in der Molekülkammer befindet sich das Substrat. Die durch den Konus in den unteren Teil des Aufbaus
 gelangten Moleküle expandieren in der restlichen Kammer und sollten auf dem Substrat zum Liegen
 kommen.
 
-% An einer Seite des Würfels ist ein Pumpstand angeschlossen, der ein Vakuum im
-% Bereich von $10^{-5}$mbar herstellen soll. Der Teil unterhalb des Würfels ist mit der Molekülkammer
-% verbunden und wird über die Getterpumpe vakuumiert. Lediglich zu Beginn, wenn der Pumpstand
-% hochgefahren wird, kann das zweite Ventil geschlossen und das erste geöffnet werden, sodass das
-% erste Verbindungsstück direkt unterhalb des Würfels über Schlauch und T-Stück ebenfalls gepumpt werden
-% kann.\\
-% Das erste Ventil dient auch dazu, den Würfel von der Kammer trennen zu können, falls dieser
-% oder das Ventil für die Suspension gereinigt werden müssen. Auf diese Weise muss nicht der ganze
-% vordere Teil der Vakuumkammer, sondern nur der Würfel belüftet werden.\\
 \FloatBarrier
 
